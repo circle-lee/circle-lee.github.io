@@ -1,0 +1,119 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+}
+a {
+    color: #3290eb
+}
+a:hover {
+    color: #07b536;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.profile {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.profile ul {
+    list-style-type: circle;
+    text-align: left;
+}
+.profile li {
+    margin: 4px 0 8px 0
+}
+
+.article {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.title {
+    color: #07b536;
+}
+.sub_title {
+    color: #07b536;
+    padding: 0;
+    margin: 8px 0;
+}
+
+ul.dev_exp,
+ul.ac_exp,
+ul.edu,
+ul.skill,
+ul.training,
+ul.awards {
+    margin-top: 8px;
+}
+ul.dev_exp ul,
+ul.ac_exp ul,
+ul.edu ul,
+ul.skill ul {
+    list-style: none;
+    margin-left: 0;
+}
+ul.dev_exp ul > li:before,
+ul.ac_exp ul > li:before,
+ul.edu ul > li:before,
+ul.skill ul > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+ul.dev_exp ul > li,
+ul.ac_exp ul > li,
+ul.edu ul > li,
+ul.skill ul > li,
+ul.training ul > li,
+ul.awards ul > li {
+    margin: 4px 0;
+}
+
+.proj_name {
+    font-weight: bold;
+    color: #3290eb;
+}
+
+ul.os_cont {
+    margin-top: 8px;
+}
+
+
+.collapsible {
+    color: #3290eb;
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+}
+.content {
+    display: none;
+    overflow: hidden;
+}
+
+ul.rom {
+    padding-left:16px;
+    list-style-type: upper-roman
+}
+
+.paper-title {
+    color: #3290eb
+}
+.me {
+    font-weight: bold
+}
+.ko {
+    font-family: 'Nanum Gothic';
+    font-size: 12pt;
+}
+.i {
+    font-style: italic
+}
+hr {
+    margin: 32px 0 16px 0;
+}
