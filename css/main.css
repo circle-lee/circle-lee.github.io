@@ -185,13 +185,14 @@ article {
 
     .profile {
         display: block;
+        width: 100%;
     }
     .profile-img {
         margin: 0 auto;
     }
     .profile-text {
         margin: 0 auto;
-        padding: 0 auto;
+        padding: 0;
         text-align: center;
     }
 
