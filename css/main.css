@@ -8,6 +8,13 @@ p {
     margin : 0;
 }
 
+a {
+    color: #3290eb;
+}
+a:hover {
+    color: #06c755;
+}
+
 article {
     padding: 32px 0 16px 0;
 }
@@ -22,6 +29,28 @@ article {
     border-top: 1px solid #c0c0c0;
     border-bottom: 1px solid #c0c0c0;
 }
+
+
+.intro {
+    max-width: 640px;
+
+    font-size: 14pt;
+    text-align: left;
+    margin: 0 auto;
+    padding: 16px 0;
+
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.intro p {
+    padding-bottom: 16px;
+}
+
+.intro-big {
+    font-size: 18pt;
+    text-align: center;
+}
+
 
 .profile {
     display: flex;
@@ -102,6 +131,100 @@ article {
 }
 
 
+.open-src-logo {
+    display: inline-block;
+    width: 33%;
+    margin-top: 64px;
+    text-align: center;
+}
+.open-src-logo img {
+    width: 200px;
+}
+
+.tech-stack-logo {
+    display: inline-block;
+    width: 25%;
+    margin-top: 64px;
+    text-align: center;
+}
+.tech-stack-logo img {
+    width: 40%;
+    vertical-align: middle;
+}
+
+
+.paper,
+.patent,
+.award {
+    font-size: 14pt;
+
+    max-width: 960px;
+    border: 1px solid #c0c0c0;
+
+    padding: 16px;
+    margin: 16px auto;
+}
+.paper .title,
+.patent .title {
+    color: #3290eb;
+}
+
+.award {
+    font-size: 12pt;
+}
+
+
 @media screen and (max-width: 1280px) {
-    
+    main {
+        width: 100%;
+    }
+
+    .profile {
+        display: block;
+    }
+    .profile-img {
+        margin: 0 auto;
+    }
+    .profile-text {
+        margin: 0 auto;
+        padding: 0 auto;
+        text-align: center;
+    }
+
+    .line {
+        display: block;
+    }
+    .link-line {
+        display: none;
+    }
+    .line-l,
+    .line-r { 
+        width: 100%;
+        border: none;
+        margin: 0 auto;
+        padding: 8px 0;
+    }
+    .line-e {
+        display: none;
+    }
+    .content {
+        margin: 0 auto;
+    }
+
+    .open-src-logo,
+    .tech-stack-logo {
+        width: 50%;
+    }
+    .tech-stack-logo img {
+        max-width: 128px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .open-src-logo,
+    .tech-stack-logo {
+        display: block;
+        width: 100%;
+    }
 }

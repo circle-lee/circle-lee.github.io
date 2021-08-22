@@ -2,16 +2,9 @@
 var $g_jsonData = null;
 
 function loadData() {
-    /*
     $.getJSON('./assets/data.json', function (data) {
         $g_jsonData = data;
     });
-    */
-
-
-    var jsonText = '{    "pro_ex":    [        {            "title": "Software Engineer",            "company_name": "LINE Plus Coporation",            "period": "2021.08 - Present",            "job": "Desktop Developer",            "loc": "l",            "projects": [ ]        },        {            "title": "Firmware Engineer",            "company_name": "SK hynix",            "period": "2021.01 - 2021.07",            "job": "SSD Flash Translation Layer (FTL) Developer",            "loc": "r",            "projects": [ "PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD" ]        },        {            "title": "Junior Firmware Engineer",            "company_name": "SK hynix",            "period": "2019.01 - 2020.12",            "job": "SSD FTL Developer",            "loc": "r",            "projects": [ "PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD", "PE8110 - PCIe Gen3 Enterprise SSD" ]        },        {            "title": "Software Engineer",            "company_name": "Smart&Wise",            "period": "2015.07 - 2016.01",            "job": "Web (FE/BE) Developer",            "loc": "l",            "projects": [ "Homepage of General Students\' Association at Korea Univ.", "Homepage of Counseling Program at Korea University", "Homepage of Smart&Wise" ]        },        {            "title": "Software Engineer",            "company_name": "ECO, Inc.",            "period": "2013.09 - 2015.06",            "job": "Windows Developer",            "loc": "r",            "projects": [ "Book Searcher for KIOSK", "eBook Viewer for KIOSK", "eBook Viewer for web" ]        }    ],    "edu":    [        {            "degree_name": "M.E degree at Dept. of Computer Engineering",            "period": "2017 - 2018",            "school": "Kwangwoon University",            "lab": "in Information and Communication Technology (ICT) Laboratory",            "loc": "l",            "detail": ""        },                {            "degree_name": "B.E degree at Dept. of Computer Engineering",            "period": "2011 - 2016",            "school": "Kwangwoon University",            "lab" : "",            "loc": "r",            "detail": "graduated at the top of Dept. of Computer Engineering, Kwangwoon University (1/84)"        }    ]}';
-
-    $g_jsonData = $.parseJSON(jsonText);
 }
 
 
@@ -40,12 +33,14 @@ function addProEx(idx, jsonData) {
 
         $div_line_l.append($div_content);
         $div_line_l.append('<div class="link-line"></div>');
+        $div_line_r.addClass('line-e');
     }
     else {
         $div_line_loc = $div_line_r;
 
         $div_line_r.append('<div class="link-line"></div>');
         $div_line_r.append($div_content);
+        $div_line_l.addClass('line-e');
     }
 
     $div_line_loc.append();
@@ -84,24 +79,97 @@ function addEdu(idx, jsonData) {
 
         $div_line_l.append($div_content);
         $div_line_l.append('<div class="link-line"></div>');
+        $div_line_r.addClass('line-e');
     }
     else {
         $div_line_loc = $div_line_r;
 
         $div_line_r.append('<div class="link-line"></div>');
         $div_line_r.append($div_content);
+        $div_line_l.addClass('line-e');
     }
 
     $div_line_loc.append();
 
-    var $div_line = $("<div class='line'></div>");
+    var $div_line = $('<div class="line"></div>');
     $div_line.append($div_line_l);
     $div_line.append($div_line_r);
 
     $('#edu').append($div_line);
 }
 
-function loadProEx() {
+function addOpenSrc(idx, jsonData) {
+    var img_name = jsonData.img_name;
+    
+    var $div_logo = $('<div class="open-src-logo"><img src="./assets/' + img_name + '"></div>');
+    $('#open-src').append($div_logo);
+}
+
+function addTechStack(idx, jsonData) {
+    var img_name = jsonData.img_name;
+    
+    var $div_logo = $('<div class="tech-stack-logo"><img src="./assets/' + img_name + '"></div>');
+    $('#tech-stack').append($div_logo);
+}
+
+function addPaper(id, jsonData) {
+    var author = jsonData.author;
+    var title = jsonData.title;
+    var journal = jsonData.journal;
+    var link = jsonData.link;
+    
+    var $div_paper = $('<div class="paper"></div>');
+    $div_paper.append($('<p>' + author + '</p>'));
+    if (link == "") {
+        $div_paper.append($('<p class="title">"' + title + '"</p>'));
+    }
+    else {
+        $div_paper.append($('<p class="title"><a target="_blank" href="' + link + '">"' + title + '"</a></p>'));
+    }
+    $div_paper.append($('<p class="journal">"' + journal + '"</p>'));
+
+    $(id).append($div_paper);
+}
+function addInternationalJournal(idx, jsonData) {
+    addPaper('#inter_jnl', jsonData);
+}
+function addDomesticJournal(idx, jsonData) {
+    addPaper('#dome_jnl', jsonData);
+}
+function addConference(idx, jsonData) {
+    addPaper('#conf', jsonData);
+}
+
+function addPatent(id, jsonData) {
+    var author = jsonData.author;
+    var title = jsonData.title;
+    var date = jsonData.date;
+    
+    var $div_patent = $('<div class="patent"></div>');
+    $div_patent.append($('<p>' + author + '</p>'));
+    $div_patent.append($('<p class="title">"' + title + '"</p>'));
+    $div_patent.append($('<p>"' + date + '"</p>'));
+
+    $(id).append($div_patent);
+}
+function addDomesticPatent(idx, jsonData) {
+    addPatent('#dome_pat', jsonData);
+}
+
+function addAwards(id, jsonData) {
+    var text = jsonData;
+    $('#awards').append($('<div class="award"><p>' + text + '</p></div>'))
+}
+
+
+function renderData() {
     $.each($g_jsonData.pro_ex, addProEx);
     $.each($g_jsonData.edu, addEdu);
+    $.each($g_jsonData.open_src, addOpenSrc);
+    $.each($g_jsonData.tech_stack, addTechStack);
+    $.each($g_jsonData.inter_jnl, addInternationalJournal);
+    $.each($g_jsonData.dome_jnl, addDomesticJournal);
+    $.each($g_jsonData.conf, addConference);
+    $.each($g_jsonData.dome_pat, addDomesticPatent);
+    $.each($g_jsonData.awards, addAwards);
 }
