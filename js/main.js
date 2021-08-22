@@ -163,6 +163,11 @@ function addAwards(id, jsonData) {
 
 
 function renderData() {
+    if ($g_jsonData == null) {
+        setTimeout(renderData, 500);
+        return;
+    }
+    
     $.each($g_jsonData.pro_ex, addProEx);
     $.each($g_jsonData.edu, addEdu);
     $.each($g_jsonData.open_src, addOpenSrc);
