@@ -167,7 +167,9 @@ function renderData() {
         setTimeout(renderData, 500);
         return;
     }
-    
+
+    $('body').removeClass('hidden');
+
     $.each($g_jsonData.pro_ex, addProEx);
     $.each($g_jsonData.edu, addEdu);
     $.each($g_jsonData.open_src, addOpenSrc);

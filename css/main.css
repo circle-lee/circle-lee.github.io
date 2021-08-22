@@ -173,6 +173,10 @@ article {
     font-size: 12pt;
 }
 
+.hidden {
+    opacity: 0;
+}
+
 
 @media screen and (max-width: 1280px) {
     main {
