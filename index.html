@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=940, initial-scale=1.0">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131567346-1"></script>
     <script>
@@ -9,344 +13,58 @@
         gtag('js', new Date());
         gtag('config', 'UA-131567346-1');
     </script>
-    
-    <script>
-        function ClickCollap(btn, id) {
-            var content = document.getElementById(id);
 
-            if (content.style.display === "block") {
-                content.style.display = "none";
-                btn.innerHTML = 'Detail';
-            } else {
-                content.style.display = "block";
-                btn.innerHTML = 'Collapse';
-            }
-        }
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script src='./js/jquery-3.6.0.min.js'></script>
+    <script src='./js/fontawesomejs.js'></script>
+    <script src='./js/main.js'></script>
+    <script>
+        loadData();
     </script>
 
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Won Hyoung Lee</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./style/main.css"/>
+    <title>Circle Lee's Profile</title>
 </head>
 <body>
-    <div class="article">
-        <hr>
-        <div style="text-align: center; padding: 32px 0">
-            <img src='./img/profile.jpg'>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <article>
             <div class="profile">
-                <span style="font-size:16pt; font-weight: bold">Won Hyoung Lee</span>
-                <ul>
-                    <li>
-                        Software Developer<br/>
-                        - (Refresh) Jul. 2021 ~ Aug. 2021<br/>
-                    </li>
-                    <li>E-mail: <a href="mailto:circlelee92@gmail.com">circlelee92@gmail.com</a></li>
-                </ul>
+                <div class="profile-img"></div>
+                <div class="profile-text">
+                    <p class="profile-big">Won Hyoung Lee</p>
+                    <p><i class="fas fa-building white-space"></i> LINE Plus Corporation</p>
+                    <p><i class="fas fa-keyboard white-space"></i> Desktop Developer</p>
+                    <p><i class="fas fa-envelope white-space"></i> circle.lee@linecorp.com</p>
+                </div>
             </div>
-        </div>
+        </article>
+        <article id="pro-ex">
+            <div class="section-title">
+                <p>Professional Experience</p>
+            </div>
+        </article>
+        <article id="edu">
+            <div class="section-title">
+                <p>Education</p>
+            </div>
+        </article>
+        <article id="open-src">
+            <div class="section-title">
+                <p>Open Source Contribution</p>
+            </div>
+        </article>
+        <article id="tech-stack">
+            <div class="section-title">
+                <p>Technology Stack</p>
+            </div>
+        </article>
+    </main>
+    <footer></footer>
 
-        <h2 class="title">Development Experience</h2>
-        <ul class="dev_exp">
-            <li>
-                <span><b>Firmware Engineer</b>, Jan. 2019 ~ Jul. 2021</span>
-                <ul>
-                    <li>SSD Flash Translation Layer (FTL) Developer</li>
-                    <li>at <a target="_blank" href="https://www.skhynix.com">SK hynix</a></li>
-                    <li><span class="collapsible" onclick='ClickCollap(this, "content_1")'>Detail</span>
-                        <div id="content_1" class="content">
-                            <h4 class="sub_title">Projects</h4>
-                            <ul>
-                                <li>PE9110 (Data Center SSD, PCIe Gen 4) in Task Force, 2020-2021</li>
-                                <li>PC801 (Client SSD, PCIe Gen 4) in Task Force, 2020-2021</li>
-                                <li>PE8111 (Enterprise SSD, PCIe Gen 3) in Enterprise SSD team, 2019</li>
-                            </ul>
-                            <h4 class="sub_title">Job Summary</h4>
-                            <ul>
-                                <li>Performance Analyses and Optimization</li>
-                                <li>ARM compiler Analyses and Code Optimization</li>
-                                <li>Mapping Data Management</li>
-                                <li>Data Recovery for Sudden Power Off</li>
-                                <li>NMP/NDP for Open Compute Project (OCP)</li>
-                                <li>Host I/O path</li>
-                                <li>Garbage Collection / Wear Leveling</li>
-                                <li>Read Disturb / Data Retention</li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <span><b>Software Developer</b>, Jul. 2015 ~ Jan. 2016</span>
-                <ul>
-                    <li>Web (Front-/Back-end) Developer</li>
-                    <li>at <a target="_blank" href="http://www.smartandwise.co.kr">Smart&amp;Wise</a></li>
-                    <li><span class="collapsible" onclick='ClickCollap(this, "content_2")'>Detail</span>
-                        <div id="content_2" class="content">
-                            <h4 class="sub_title">Projects</h4>
-                            <ul>
-                                <li>Homepage of General Students' Association at Korea University, 2015</li>
-                                <li>Homepage of Counseling Program at Korea University, 2015</li>
-                                <li>Homepage of Smart&Wise, 2015-2016</li>
-                            </ul>
-                            <h4 class="sub_title">Job Summary</h4>
-                            <ul>
-                                <li>Front-end development</li>
-                                <li>Back-end development</li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <span><b>Software Engineer</b>, Sept. 2013 ~ June 2015</span>
-                <ul>
-                    <li>Windows Application Developer</li>
-                    <li>Skilled Industry Personnel for Alternative Military Service</li>
-                    <li>at ECO, Inc.</li>
-                    <li><span class="collapsible" onclick='ClickCollap(this, "content_3")'>Detail</span>
-                        <div id="content_3" class="content">
-                            <h4 class="sub_title">Projects</h4>
-                            <ul>
-                                <li>Book Searcher (Ver. KIOSK), 2015</li>
-                                <li>eBook Viewer (Ver. KIOSK), 2013-2015</li>
-                                <li>eBook Viewer (Ver. ActiveX), 2013-2015</li>
-                            </ul>
-                            <h4 class="sub_title">Job Summary</h4>
-                            <ul>
-                                <li>WPF based Application development</li>
-                                <li>Multi-threaded Application development</li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-        <h2 class="title">Open-Source Contributions</h2>
-        <ul class="os_cont">
-            <li><a target="_blank" href="https://www.nsnam.org">NS-3</a></li>
-            <li><a target="_blank" href="https://sir.kr/main/g5/">GNU-Board5</a></li>
-        </ul>
-
-        <h2 class="title">Computer Skills</h2>
-        <ul class="skill">
-            <li><b>C</b>
-                <ul>
-                    <li>ARM Cortex-R</li>
-                    <li>Programs for Simulations</li>
-                </ul>
-            </li>
-            
-            <li><b>C++</b>
-                <ul>
-                    <li>OOP developments</li>
-                    <li>Programs for Simulations</li>
-                    <li><a target="_blank" href="https://www.nsnam.org/">NS-3</a></li>
-                </ul>
-            </li>
-            
-            <li><b>C#</b>
-                <ul>
-                    <li>OOP developments</li>
-                    <li>WPF, ASP.NET</li>
-                    <li>XNA</li>
-                    <li>Programs for Personal needs</li>
-                    <li>Programs for Simulations</li>
-                </ul>
-            </li>
-            
-            <li><b>Assembly</b>
-                <ul>
-                    <li>ARM Cortex-A</li>
-                    <li>ARM Cortex-M</li>
-                    <li>Intel x86 <a target="_blank" href="http://asmirvine.com/">Irvine</a></li>
-                </ul>
-            </li>
-            
-            <li><b>Matlab</b>
-                <ul>
-                    <li>Programs for Simulations</li>
-                    <li>Programs for Numerical Analyses</li>
-                </ul>
-            </li>
-            
-            <li><b>Python</b>
-                <ul>
-                    <li><a target="_blank" href="https://www.tensorflow.org/">Tensorflow</a></li>
-                    <li><a target="_blank" href="https://keras.io/">Keras</a></li>
-                    <li>Programs for Simulations</li>
-                    <li>Programs for Numerical Analyses</li>
-                </ul>
-            </li>
-            
-            <li><b>PHP</b>
-                <ul>
-                    <li>Web developments</li>
-                    <li><a target="_blank" href="https://sir.kr/main/g5/">GNU-Board5</a></li>
-                </ul>
-            </li>
-            
-            <li><b>Java</b>
-                <ul>
-                    <li>Web developments</li>
-                    <li><a target="_blank" href="https://spring.io/projects/spring-boot">Spring Boot</a></li>
-                </ul>
-            </li>
-            
-            <li>Others
-                <ul>
-                    <li>Android</li>
-                    <li>Verilog</li>
-                    <li>Javascript</li>
-                </ul>
-            </li>
-        </ul>
-        
-        <hr>
-        <h2 class="title">Publications</h2>
-        <ul class="publication">
-            <li><h3>International Journal Papers</h3>
-                <ol>
-                    <li><span class="me">Won Hyoung Lee</span> and Ho Young Hwang, <br/>
-                        <span class="paper-title">"<a target="_blank" href="https://doi.org/10.1371/journal.pone.0213888">A-MPDU aggregation with optimal number of MPDUs for delay requirements in IEEE 802.11ac</a>,"</span> <br/>
-                        <i>PLoS ONE</i>, 14(3): e0213888, 17 pages, Mar. 2019 <b>(SCIE)</b>.
-                    </li>
-                    <li>
-                        <span class="me">Won Hyoung Lee</span>,  Ho Young Hwang, and Jo Woon Chong, <br/>
-                        <span class="paper-title">"<a target="_blank" href="https://doi.org/10.1155/2018/5420876">Runtime Estimation of the Number of Active Devices in IEEE 802.15.4 slotted CSMA/CA Networks with Deferred Transmission and No Acknowledgment using ARMA Filters</a>,"</span> <br/>
-                        <i>Wireless Communications and Mobile Computing</i>, Vol. 2018, Article ID 5420876, 12 pages, Sep. 2018 <b>(SCIE)</b>.
-                    </li>
-                </ol>
-            </li>
-            
-            <li><h3>International Conference Paper</h3>
-                <ol>
-                    <li>Do-Haeng Lee, <span class="me">Won Hyoung Lee</span>, Eol Choi, and Ho Young Hwang, <br/>
-                        <span class="paper-title">"<a target="_blank" href="https://doi.org/10.1109/ICTC.2013.6675402">Subcarrier Allocation and Relay Selection for Uplink Transmission in OFDMA-Based Cognitive Radio Systems</a>,"</span> <br/>
-                        <i>2013 International Conference on ICT Convergence (ICTC)</i>, Jeju, Korea, pp. 485-487, Oct. 14-16, 2013.
-                    </li>
-                </ol>
-            </li>
-            
-            <li><h3>Domestic Journal Papers</h3>
-                <ol class="ko">
-                    <li><span class="me">이원형</span>, 황호영, <br/>
-                        <span class="paper-title">"<a target="_blank" href="http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07538585">IEEE 802.15.4 슬롯 기반 CSMA/CA에서 시스템 처리율 향상을 위한 단말 수 추정을 통한 백오프 기간 튜닝 기법</a>,"</span> <br/>
-                        <span class="i">한국정보통신학회논문지</span>, 제22권 제9호, 1243-1249, 2018 (KCI).
-                    </li>
-                    <li>이도행, <span class="me">이원형</span>, 강성민, 황호영, <br/>
-                        <span class="paper-title">"<a target="_blank" href="http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06579095">네트워크 코딩을 쓰는 언더레이 인지 무선 네트워크에서의 주파수 할당과 경로 선택 기법</a>,"</span> <br/>
-                        <span class="i">한국통신학회논문지</span>, 제40권 제12호, 2372-2380, 2015 (KCI).
-                    </li>
-                </ol>
-            </li>
-            
-            <li><h3>Domestic Conference Papers</h3>
-                <ol class="ko">
-                    <li><span class="me">이원형</span>, 황호영, <br/>
-                        <span class="paper-title">"IEEE 802.11ac에서 지연 요건에 대한 A-MPDU 집약 기법의 성능 평가,"</span> <br/>
-                        <i>한국통신학회 추계종합학술대회</i>, Nov. 2016.
-                    </li>
-                    <li>이도행, <span class="me">이원형</span>, 황호영, <br/>
-                        <span class="paper-title">"언더레이 인지 무선 네트워크에서 네트워크 코딩 기반의 중계 선택 기법,"</span> <br/>
-                        <i>한국통신학회 추계종합학술대회</i>, Nov. 2014.
-                    </li>
-                    <li><span class="me">이원형</span>, 최얼, 이도행, 황호영, <br/>
-                        <span class="paper-title">"LTE 기반 중계 시스템에서 인접 셀 간섭을 고려한 하향 링크 대역폭 할당 기법의 성능 평가,"</span> <br/>
-                        <i>컴퓨터통신워크숍</i>, Aug. 2013.
-                    </li>
-                </ol>
-            </li>
-            
-            <li><h3>Domestic Patents</h3>
-                <ol class="ko">
-                    <li>황호영, <span class="me">이원형</span>, <br/>
-                        <span class="paper-title">"슬롯 기반 CSMA/CA 네트워크에서 단말 수를 추정하는 방법 및 그 장치,"</span> <br/> 
-                        등록번호: 10-2121501, 등록일: 2020년 6월 4일.
-                    </li>
-                    <li>황호영, <span class="me">이원형</span>, <br/>
-                        <span class="paper-title">"슬롯기반 CSMA/CA 네트워크에서의 시스템 처리율 향상 방법 및 그 장치,"</span> <br/> 
-                        등록번호: 10-2070301, 등록일: 2020년 1월 20일.
-                    </li>
-                    <li>황호영, <span class="me">이원형</span>, <br/>
-                        <span class="paper-title">"프레임 집약을 이용하는 통신장치 및 그 방법,"</span> <br/> 
-                        등록번호: 10-1974168, 등록일: 2019년 4월 24일.
-                    </li>
-                    <li>황호영, 이도행, <span class="me">이원형</span>, 강성민, <br/>
-                        <span class="paper-title">"인지 무선 네트워크에서의 경로 선택 방법 및 그 장치,"</span> <br/> 
-                        등록번호: 10-1824190, 등록일: 2018년 1월 25일.
-                    </li>
-                    <li>황호영, 정인건, <span class="me">이원형</span>, <br/>
-                        <span class="paper-title">"인지 중계 네트워크에서 최소 수신 전력을 이용하여 상향 링크의 데이터 전송률을 최대화하는 방법 및 그 장치,"</span> <br/>
-                        등록번호: 10-1626952, 등록일: 2016년 5월 27일.
-                    </li>
-                    <li>황호영, 정인건, <span class="me">이원형</span>, <br/>
-                        <span class="paper-title">"인지 중계 네트워크에서 링크간 최대 전송 속도를 이용하여 데이터 전송률을 최대화하는 방법 및 그 장치,"</span> <br/>
-                        등록번호: 10-1626951, 등록일: 2016년 5월 27일.
-                    </li>
-                </ol>
-            </li>
-        </ul>
-
-        <hr>
-        <h2 class="title">Academic Experience</h2>
-        <ul class="ac_exp">
-            <li><b>Research Assistant</b>, May 2012 ~ Dec. 2018
-                <ul>
-                    <li>in <a target="_blank" href="http://ict.kw.ac.kr">Information and Communication Technology (ICT) Lab.</a>, <a target="_blank" href="https://www.kw.ac.kr/">Kwangwoon University</a></li>
-                </ul>
-            </li>
-            <li><b>Teaching Assistant</b>
-                <ul>
-                    <li>in <a target="_blank" href="http://ce.kw.ac.kr">Dept. of Computer Engineering</a> at <a target="_blank" href="https://www.kw.ac.kr/">Kwangwoon University</a>, Mar. 2017 ~  Dec. 2018</li>
-                    <li>Software School, Feb. 2018<br/>
-                        in <a target="_blank" href="http://sw.kw.ac.kr">College of Software and Convergence</a> at Kwangwoon University<br/>
-                        Instructor: <a target="_blank" href="http://www.clickseo.com/?p=whoami">Prof. Doo-Ok Seo</a>
-                    </li>
-                    <li>Software Winter School, Dec. 2017<br/>
-                        in College of Software and Convergence at Kwangwoon University
-                    </li>
-                    <li><a target="_blank" href="https://www.idec.or.kr">IC Design Education Center (IDEC)</a> Summer Campus Courses at Kwangwoon University, Aug. 2015<br/>
-                        Instructor: <a target="_blank" href="http://ict.kw.ac.kr">Prof. Ho Young Hwang</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        
-        <h2 class="title">Education</h2>
-        <ul class="edu">
-            <li><b>M.E. degree</b>, Mar. 2017 ~ Feb. 2019
-                <ul>
-                    <li>at <a target="_blank" href="http://ce.kw.ac.kr">Dept. of Computer Engineering</a>, <a target="_blank" href="https://www.kw.ac.kr/">Kwangwoon University</a></li>
-                    <li>Thesis: <span class="paper-title">"A Scheme for Estimating Number of Devices and Improving System Performance in Sensor Networks"</span></li>
-                    <li>Adviser: <a target="_blank" href="http://ict.kw.ac.kr">Prof. Ho Young Hwang</a></li>
-                </ul>
-            </li>
-            <li><b>B.E. degree</b>, Mar. 2011 ~ Feb. 2017
-                <ul>
-                    <li>graduated at the top of Dept. of Computer Engineering, Kwangwoon University (1/84)</li>
-                </ul>
-            </li>
-            <li>Seoul Wooshin High School, Mar. 2008 ~ Feb. 2011</li>
-        </ul>
-        
-        <h2 class="title">Training</h2>
-        <ul class="training ko">
-            <li>수료, 4G/5G 이동통신시스템 설계, 광운대 IDEC 캠퍼스, 2017년 7월 4일.</li>
-            <li>수료, ICT 국제표준화전문가 양성교육 - 실무과정, 한국정보통신기술협회, 2017년 6월 9일.</li>
-            <li>수료, 스마트 모바일 AP기반 SoC구조 및 주변장치 응용, 광운대 IDEC 캠퍼스, 2016년 7월 14일.</li>
-        </ul>
-        
-        <h2 class="title">Awards and Scholarship</h2>
-        <ul class="awards ko">
-            <li>우수상, NAND개발사업총괄 신입사원 공통과정(NSSUP), SK하이닉스주식회사 NAND개발사업총괄, 2019년 2월 28일.</li>
-            <li>장려상, 컴퓨터공학과 졸업작품전시회, 광운대학교 컴퓨터공학과, 2016년 11월 18일.</li>
-            <li>장려상, 제 5회 소프트웨어프로그래밍 경진대회, 광운대학교 공학교육혁신센터, 2016년 9월 29일.</li>
-            <li>장학증서, 광운대학교 총동문회, 2015년 10월 6일.</li>
-            <li>표창장, 서울특별시교원단체총연합회, 2011년 2월 9일.</li>
-        </ul>
-    </div>
+    <script>
+        loadProEx();
+    </script>
 </body>
 </html>

@@ -1,0 +1,107 @@
+
+main {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+p {
+    margin : 0;
+}
+
+article {
+    padding: 32px 0 16px 0;
+}
+
+.section-title {
+    font-size: 24pt;
+    line-height: normal;
+
+    text-align: center;
+    padding: 16px 0 20px 0;
+
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.profile {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 0;
+}
+.profile-img {
+    background-image: url('../assets/profile.jpg');
+    width: 128px;
+    height: 148px;
+    margin-left: 128px;
+}
+.profile-text {
+    vertical-align: top;
+    line-height: normal;
+
+    padding: 16px 0;
+    margin-left: 32px;
+    font-size: 13pt;
+}
+.profile-big {
+    font-size: 16pt;
+    padding-bottom: 8px;
+}
+.profile .white-space {
+    margin-left: 12px;
+}
+
+
+#pro-ex {
+    line-height: 0;
+}
+.line {
+    display: flex;
+}
+.line-l,
+.line-r {
+    display: flex;
+
+    width: 50%;
+    min-height: 32px;
+
+    vertical-align: top;
+    line-height: normal;
+
+    padding: 32px 0;
+}
+
+.line-l {
+    border-right: 1px solid #c0c0c0;
+    margin-left: -1px;
+}
+.line-r {
+    border-left: 1px solid #c0c0c0;
+    margin-right: -1px;
+}
+
+.content {
+    width: 76%;
+    padding: 8px;
+    border: 1px solid #c0c0c0;
+}
+
+.link-line {
+    width: 24%;
+    height: 32px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.content .white-space {
+    margin-left: 16px;
+}
+
+.edu-detail {
+    padding-top: 16px;
+    font-style: italic;
+}
+
+
+@media screen and (max-width: 1280px) {
+    
+}

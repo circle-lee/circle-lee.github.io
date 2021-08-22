@@ -1,0 +1,70 @@
+{
+    "pro_ex":
+    [
+        {
+            "title": "Software Engineer",
+            "company_name": "LINE Plus Coporation",
+            "period": "2021.08 - Present",
+            "job": "Desktop Developer",
+            "loc": "l",
+            "projects": [ ]
+        },
+
+        {
+            "title": "Firmware Engineer",
+            "company_name": "SK hynix",
+            "period": "2021.01 - 2021.07",
+            "job": "SSD Flash Translation Layer (FTL) Developer",
+            "loc": "r",
+            "projects": [ "PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD" ]
+        },
+
+        {
+            "title": "Junior Firmware Engineer",
+            "company_name": "SK hynix",
+            "period": "2019.01 - 2020.12",
+            "job": "SSD FTL Developer",
+            "loc": "r",
+            "projects": [ "PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD", "PE8110 - PCIe Gen3 Enterprise SSD" ]
+        },
+
+        {
+            "title": "Software Engineer",
+            "company_name": "Smart&Wise",
+            "period": "2015.07 - 2016.01",
+            "job": "Web (FE/BE) Developer",
+            "loc": "l",
+            "projects": [ "Homepage of General Students' Association at Korea Univ.", "Homepage of Counseling Program at Korea University", "Homepage of Smart&Wise" ]
+        },
+
+        {
+            "title": "Software Engineer",
+            "company_name": "ECO, Inc.",
+            "period": "2013.09 - 2015.06",
+            "job": "Windows Developer",
+            "loc": "r",
+            "projects": [ "Book Searcher for KIOSK", "eBook Viewer for KIOSK", "eBook Viewer for web" ]
+        }
+    ],
+
+    "edu":
+    [
+        {
+            "degree_name": "M.E degree at Dept. of Computer Engineering",
+            "period": "2017 - 2018",
+            "school": "Kwangwoon University",
+            "lab": "in Information and Communication Technology (ICT) Laboratory",
+            "loc": "l",
+            "detail": ""
+        },
+        
+        {
+            "degree_name": "B.E degree at Dept. of Computer Engineering",
+            "period": "2011 - 2016",
+            "school": "Kwangwoon University",
+            "lab" : "",
+            "loc": "r",
+            "detail": "graduated at the top of Dept. of Computer Engineering, Kwangwoon University (1/84)"
+        }
+    ]
+}
