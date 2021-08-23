@@ -14,7 +14,7 @@
             "title": "Firmware Engineer",
             "company_name": "SK hynix",
             "period": "2021.01 - 2021.07",
-            "job": "SSD Flash Translation Layer (FTL) Developer",
+            "job": "SSD FTL Developer",
             "loc": "r",
             "projects": [ "PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD" ]
         },

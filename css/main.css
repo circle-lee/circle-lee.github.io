@@ -1,6 +1,7 @@
 
 main {
-    width: 1280px;
+    max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -53,31 +54,32 @@ article {
 
 
 .profile {
-    display: flex;
-    width: 50%;
+    display: block;
+    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
     line-height: 0;
+    text-align: center;
 }
 .profile-img {
+    display: inline-block;
     background-image: url('../assets/profile.jpg');
     width: 128px;
     height: 148px;
-    margin-left: 128px;
 }
 .profile-text {
+    display: inline-block;
     vertical-align: top;
     line-height: normal;
 
     padding: 16px 0;
     margin-left: 32px;
     font-size: 13pt;
+    text-align: left;
 }
 .profile-big {
     font-size: 16pt;
     padding-bottom: 8px;
-}
-.profile .white-space {
-    margin-left: 12px;
 }
 
 
@@ -121,8 +123,11 @@ article {
     border-bottom: 1px solid #c0c0c0;
 }
 
-.content .white-space {
-    margin-left: 16px;
+.white-space {
+    padding-left: 8px;
+}
+.project-white-space {
+    padding-left: 16px;
 }
 
 .edu-detail {
@@ -148,7 +153,7 @@ article {
     text-align: center;
 }
 .tech-stack-logo img {
-    width: 40%;
+    width: 128px;
     vertical-align: middle;
 }
 
@@ -178,24 +183,27 @@ article {
 }
 
 
-@media screen and (max-width: 1280px) {
-    main {
-        width: 100%;
+@media screen and (max-width: 960px) {
+    .link-line {
+        width: 15%;
     }
 
-    .profile {
-        display: block;
-        width: 100%;
+    .content { 
+        width: 85%;
     }
-    .profile-img {
-        margin: 0 auto;
-    }
-    .profile-text {
-        margin: 0 auto;
-        padding: 0;
-        text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .open-src-logo {
+        width: 50%;
     }
 
+    .tech-stack-logo {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 830px) {
     .line {
         display: block;
     }
@@ -215,21 +223,19 @@ article {
     .content {
         margin: 0 auto;
     }
-
-    .open-src-logo,
-    .tech-stack-logo {
-        width: 50%;
-    }
-    .tech-stack-logo img {
-        max-width: 128px;
-    }
 }
 
 @media screen and (max-width: 640px) {
-
-    .open-src-logo,
+    .open-src-logo {
+        width: 100%;
+    }
     .tech-stack-logo {
-        display: block;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tech-stack-logo {
         width: 100%;
     }
 }
