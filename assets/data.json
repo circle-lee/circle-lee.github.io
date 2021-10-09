@@ -150,12 +150,6 @@
     "conf":
     [
         {
-            "author": "Do-Haeng Lee, <b>Won Hyoung Lee</b>, Eol Choi, and Ho Young Hwang,",
-            "title": "Subcarrier Allocation and Relay Selection for Uplink Transmission in OFDMA-Based Cognitive Radio Systems,",
-            "journal": "<i>2013 International Conference on ICT Convergence (ICTC)</i>, Jeju, Korea, pp. 485-487, Oct. 14-16, 2013.",
-            "link": "https://doi.org/10.1109/ICTC.2013.6675402"
-        },
-        {
             "author": "<b>W. H. Lee</b> and H. Y. Hwang,",
             "title": "Performance Evaluation of A-MPDU Aggregation for Delay Requirements in IEEE 802.11ac,",
             "journal": "<i>KICS Conference Fall 2016</i>, pp. 342-343, Seoul, Korea, Nov. 19, 2016.",
@@ -166,6 +160,12 @@
             "title": "Network Coding-Based Relay Selection in Underlay Cognitive Radio Networks,",
             "journal": "<i>KICS Conference Fall 2014</i>, pp. 352-353, Daejeon, Korea, Nov. 22, 2014.",
             "link": ""
+        },
+        {
+            "author": "Do-Haeng Lee, <b>Won Hyoung Lee</b>, Eol Choi, and Ho Young Hwang,",
+            "title": "Subcarrier Allocation and Relay Selection for Uplink Transmission in OFDMA-Based Cognitive Radio Systems,",
+            "journal": "<i>2013 International Conference on ICT Convergence (ICTC)</i>, Jeju, Korea, pp. 485-487, Oct. 14-16, 2013.",
+            "link": "https://doi.org/10.1109/ICTC.2013.6675402"
         },
         {
             "author": "<b>W. H. Lee</b>, E. Choi, D.-H. Lee, and H. Y. Hwang,",
