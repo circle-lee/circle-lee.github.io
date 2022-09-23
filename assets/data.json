@@ -7,7 +7,7 @@
             "period": "2021.08 - Present",
             "job": "Desktop Developer",
             "loc": "l",
-            "projects": [ ]
+            "projects": [ "LINE Desktop" ]
         },
 
         {
@@ -177,6 +177,26 @@
 
     "dome_pat":
     [
+        {
+            "author": "<b>W. H. Lee</b> and J. Y. Kang,",
+            "title": "Memory System and Operating Method Thereof,",
+            "date": "Appl. No. 21-0061361, Korea, May 12, 2021 (pending)."
+        },
+        {
+            "author": "S. J. Park, J. Y. Kang and <b>W. H. Lee</b>,",
+            "title": "Controller, Memory System Including the Same, and Method Performed by the Same,",
+            "date": "Appl. No. 21-0044876, Korea, Apr. 6, 2021 (pending)."
+        },
+        {
+            "author": "S. J. Park and <b>W. H. Lee</b>,",
+            "title": "Controller and Operating Method Thereof,",
+            "date": "Appl. No. 20-0156048, Korea, Nov. 19, 2020 (pending)."
+        },
+        {
+            "author": "J. Y. Kang and <b>W. H. Lee</b>,",
+            "title": "Storage Device and Operating Method Thereof,",
+            "date": "Appl. No. 20-0144654, Korea, Nov. 2, 2020 (pending)."
+        },
         {
             "author": "H. Y. Hwang and <b>W. H. Lee</b>,",
             "title": "Method and apparatus for estimating the number of devices in a slotted CSMA/CA network,",
