@@ -102,14 +102,14 @@ function addOpenSrc(idx, jsonData) {
     var img_name = jsonData.img_name;
     
     var $div_logo = $('<div class="open-src-logo"><img src="./assets/' + img_name + '"></div>');
-    $('#open-src').append($div_logo);
+    $('#open-src-content').append($div_logo);
 }
 
 function addTechStack(idx, jsonData) {
     var img_name = jsonData.img_name;
     
     var $div_logo = $('<div class="tech-stack-logo"><img src="./assets/' + img_name + '"></div>');
-    $('#tech-stack').append($div_logo);
+    $('#tech-stack-content').append($div_logo);
 }
 
 function addPaper(id, jsonData) {
