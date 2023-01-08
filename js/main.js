@@ -12,16 +12,17 @@ function addProEx(idx, jsonData) {
     var title = jsonData.title;
     var company_name = jsonData.company_name;
     var period = jsonData.period;
-    var job = jsonData.job;
-    var loc = jsonData.loc;
+    var role = jsonData.role;
     var projects = jsonData.projects;
+    var state = jsonData.state;
+    var loc = jsonData.loc;
 
-    var $div_content = $("<div class='content'></div>");
+    var $div_content = $("<div class='content "+ state +"'></div>");
     $div_content.append('<p>' + title + ", " + period + '</p>');
     $div_content.append('<p class="white-space"><i class="fas fa-building"></i> ' + company_name + '</p>');
-    $div_content.append('<p class="white-space"><i class="fas fa-keyboard"></i> ' + job + '</p>');
+    $div_content.append('<p class="white-space"><i class="fas fa-keyboard"></i> ' + role + '</p>');
     $.each(projects, function (idx, project) {
-        $div_content.append('<p class="project-white-space"><i class="fas fa-check"></i> ' + project + '</p>');
+        $div_content.append('<p class="deeper-white-space"><i class="fas fa-check"></i> ' + project + '</p>');
     });
 
     var $div_line_l = $("<div class='line-l'></div>");
@@ -52,6 +53,62 @@ function addProEx(idx, jsonData) {
     $('#pro-ex').append($div_line);
 }
 
+function addAcademicEx(idx, jsonData) {
+    var title = jsonData.title;
+    var period = jsonData.period;
+    var name = jsonData.name;
+    var place = jsonData.place;
+    var instructor = jsonData.instructor;
+    var details = jsonData.details;
+    var loc = jsonData.loc;
+
+    var $div_content = $("<div class='content'></div>");
+    $div_content.append('<p>' + title + ", " + period + '</p>');
+
+    if (!!name) {
+        $div_content.append("<p class='white-space'><i class='fas fa-university'></i> " + name + "</p>");
+    }
+
+    if (!!place) {
+        $div_content.append("<p class='white-space'><i class='fas fa-map-marker'></i> " + place + "</p>");
+    }
+
+    if (!!instructor) {
+        $div_content.append("<p class='white-space'><i class='fas fa-book'></i> " + instructor + "</p>");
+    }
+
+    $.each(details, function (idx, detail) {
+        $div_content.append('<p class="deeper-white-space"><i>- ' + detail + '</i></p>');
+    });
+
+    var $div_line_l = $("<div class='line-l'></div>");
+    var $div_line_r = $("<div class='line-r'></div>");
+
+    var $div_line_loc = null;
+    if (loc == "l") {
+        $div_line_loc = $div_line_l;
+
+        $div_line_l.append($div_content);
+        $div_line_l.append('<div class="link-line"></div>');
+        $div_line_r.addClass('line-e');
+    }
+    else {
+        $div_line_loc = $div_line_r;
+
+        $div_line_r.append('<div class="link-line"></div>');
+        $div_line_r.append($div_content);
+        $div_line_l.addClass('line-e');
+    }
+
+    $div_line_loc.append();
+
+    var $div_line = $("<div class='line'></div>");
+    $div_line.append($div_line_l);
+    $div_line.append($div_line_r);
+
+    $('#academic-ex').append($div_line);
+}
+
 function addEdu(idx, jsonData) {
     var degree_name = jsonData.degree_name;
     var school = jsonData.school;
@@ -63,10 +120,10 @@ function addEdu(idx, jsonData) {
     var $div_content = $("<div class='content'></div>");
     $div_content.append('<p>' + degree_name + ", " + period + '</p>');
     $div_content.append('<p class="white-space"><i class="fas fa-university"></i> ' + school + '</p>');
-    if (lab != "") {
+    if (!!lab) {
         $div_content.append('<p class="white-space"><i class="fas fa-desktop"></i> ' + lab + '</p>');
     }
-    if (detail != "") {
+    if (!!detail) {
         $div_content.append('<p class="edu-detail">' + detail + '</p>');
     }
 
@@ -120,7 +177,7 @@ function addPaper(id, jsonData) {
     
     var $div_paper = $('<div class="paper"></div>');
     $div_paper.append($('<p>' + author + '</p>'));
-    if (link == "") {
+    if (!!link) {
         $div_paper.append($('<p class="title">"' + title + '"</p>'));
     }
     else {
@@ -171,6 +228,7 @@ function renderData() {
     $('body').removeClass('hidden');
 
     $.each($g_jsonData.pro_ex, addProEx);
+    $.each($g_jsonData.academic_ex, addAcademicEx);
     $.each($g_jsonData.edu, addEdu);
     $.each($g_jsonData.open_src, addOpenSrc);
     $.each($g_jsonData.tech_stack, addTechStack);

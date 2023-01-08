@@ -3,47 +3,114 @@
     [
         {
             "title": "Software Engineer",
-            "company_name": "LINE Plus Corporation",
-            "period": "2021.08 - Present",
-            "job": "Desktop Developer",
-            "loc": "l",
-            "projects": [ "LINE Desktop" ]
+            "company_name": "<a href='https://linepluscorp.com/' target='_blank'>LINE Plus Corporation</a>",
+            "period": "Aug. 2021- Present",
+            "role": "Desktop Developer",
+            "projects": [ "LINE Desktop" ],
+            "state": "keep",
+            "loc": "r"
+        },
+
+        {
+            "title": "Extra Activity",
+            "company_name": "<a href='https://careerly.co.kr/'>Careerly</a>",
+            "period": "July 2022 - Present",
+            "role": "News Curator",
+            "state": "keep",
+            "loc": "l"
+        },
+
+        {
+            "title": "Professional Activity",
+            "company_name": "<a href='https://kcf.or.kr' target='_blank'>Korea Code Fair</a>",
+            "period": "Oct. 2022",
+            "role": "Judge of Software Contest in 4-th Korea Code Fair",
+            "state": "end",
+            "loc": "l"
         },
 
         {
             "title": "Firmware Engineer",
-            "company_name": "SK hynix",
-            "period": "2021.01 - 2021.07",
-            "job": "SSD FTL Developer",
-            "loc": "r",
-            "projects": [ "PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD" ]
+            "company_name": "<a href='https://www.skhynix.com' target='_blank'>SK hynix</a>",
+            "period": "Jan. 2021 - July 2021",
+            "role": "SSD FTL Developer",
+            "projects": [ "PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD" ],
+            "state": "end",
+            "loc": "r"
         },
 
         {
             "title": "Junior Firmware Engineer",
-            "company_name": "SK hynix",
-            "period": "2019.01 - 2020.12",
-            "job": "SSD FTL Developer",
-            "loc": "r",
-            "projects": [ "PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD", "PE8110 - PCIe Gen3 Enterprise SSD" ]
+            "company_name": "<a href='https://www.skhynix.com' target='_blank'>SK hynix</a>",
+            "period": "Jan. 2019 - Dec. 2020",
+            "role": "SSD FTL Developer",
+            "projects": [ "PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD", "PE8110 - PCIe Gen3 Enterprise SSD" ],
+            "state": "end",
+            "loc": "r"
         },
 
         {
             "title": "Software Engineer",
-            "company_name": "Smart&Wise",
-            "period": "2015.07 - 2016.01",
-            "job": "Web (FE/BE) Developer",
-            "loc": "l",
-            "projects": [ "Homepage of General Students' Association at Korea Univ.", "Homepage of Counseling Program at Korea University", "Homepage of Smart&Wise" ]
+            "company_name": "<a href='http://www.smartandwise.co.kr' target='_blank'>Smart&Wise</a>",
+            "period": "July 2015 - Jan. 2016",
+            "role": "Web (FE/BE) Developer",
+            "projects": [ "Homepage of General Students' Association at Korea Univ.", "Homepage of Counseling Program at Korea University", "Homepage of Smart&Wise" ],
+            "state": "end",
+            "loc": "l"
         },
 
         {
             "title": "Software Engineer",
-            "company_name": "ECO, Inc.",
-            "period": "2013.09 - 2015.06",
-            "job": "Windows Developer",
-            "loc": "r",
-            "projects": [ "Book Searcher for KIOSK", "eBook Viewer for KIOSK", "eBook Viewer for web" ]
+            "company_name": "<a href='http://www.eco.co.kr' target='_blank'>ECO, Inc.</a>",
+            "period": "Sep. 2013 - June 2015",
+            "role": "Windows Developer",
+            "projects": [ "Book Searcher for KIOSK", "eBook Viewer for KIOSK", "eBook Viewer for web" ],
+            "state": "end",
+            "loc": "r"
+        }
+    ],
+
+    "academic_ex":
+    [
+        {
+            "title": "Graduate Teaching Assistant",
+            "period": "Mar. 2017 - Dec. 2018",
+            "place": "at Dept. of Computer Engineering, Kwangwoon Univ.",
+            "loc": "r"
+        },
+        
+        {
+            "title": "Teaching Assistant",
+            "period": "Feb. 2018",
+            "name": "Software School",
+            "place": "in College of Software and Convergence at Kwangwoon Univ.",
+            "instructor": "Prof. Doo-Ok Seo",
+            "loc": "l"
+        },
+        
+        {
+            "title": "Teaching Assistant",
+            "period": "Dec. 2017",
+            "name": "Software Winter School",
+            "place": "in College of Software and Convergence at Kwangwoon Univ.",
+            "loc": "r"
+        },
+        
+        {
+            "title": "Teaching Assistant",
+            "period": "Aug. 2015",
+            "name": "IDEC Summer Campus Courses",
+            "place": "at Kwangwoon Univ.",
+            "instructor": "Prof. Ho Young Hwang",
+            "loc": "l"
+        },
+        
+        {
+            "title": "Research Assistant",
+            "period": "May 2012 - Dec. 2018",
+            "place": "in Information and Communication Technology Lab.",
+            "details": [ "2 SCIE Journal papers", "2 KCI Journal papers", "1 International Conference paper", "3 Domestic Conference papers.", "6 Domestic patents" ],
+            "loc": "r"
         }
     ],
 
@@ -52,19 +119,17 @@
         {
             "degree_name": "M.E degree at Dept. of Computer Engineering",
             "period": "2017 - 2018",
-            "school": "Kwangwoon University",
+            "school": "Kwangwoon Univ.",
             "lab": "in Information and Communication Technology (ICT) Laboratory",
-            "loc": "l",
-            "detail": ""
+            "loc": "l"
         },
         
         {
             "degree_name": "B.E degree at Dept. of Computer Engineering",
             "period": "2011 - 2016",
-            "school": "Kwangwoon University",
-            "lab" : "",
-            "loc": "r",
-            "detail": "graduated at the top of Dept. of Computer Engineering, Kwangwoon University (1/84)"
+            "school": "Kwangwoon Univ.",
+            "detail": "graduated at the top of Dept. of Computer Engineering, Kwangwoon Univ. (1/84)",
+            "loc": "r"
         }
     ],
 
@@ -152,14 +217,12 @@
         {
             "author": "<b>W. H. Lee</b> and H. Y. Hwang,",
             "title": "Performance Evaluation of A-MPDU Aggregation for Delay Requirements in IEEE 802.11ac,",
-            "journal": "<i>KICS Conference Fall 2016</i>, pp. 342-343, Seoul, Korea, Nov. 19, 2016.",
-            "link": ""
+            "journal": "<i>KICS Conference Fall 2016</i>, pp. 342-343, Seoul, Korea, Nov. 19, 2016."
         },
         {
             "author": "D.-H. Lee, <b>W. H. Lee</b>, and H. Y. Hwang,",
             "title": "Network Coding-Based Relay Selection in Underlay Cognitive Radio Networks,",
-            "journal": "<i>KICS Conference Fall 2014</i>, pp. 352-353, Daejeon, Korea, Nov. 22, 2014.",
-            "link": ""
+            "journal": "<i>KICS Conference Fall 2014</i>, pp. 352-353, Daejeon, Korea, Nov. 22, 2014."
         },
         {
             "author": "D.-H. Lee, <b>W. H. Lee</b>, E. Choi, and H. Y. Hwang,",
@@ -170,8 +233,7 @@
         {
             "author": "<b>W. H. Lee</b>, E. Choi, D.-H. Lee, and H. Y. Hwang,",
             "title": "Performance Evaluation of a Downlink Bandwidth Allocation Scheme with Inter-Cell Interference in LTE-based Relay Systems,",
-            "journal": "<i>SWCC 2013 (Summer Workshop on Computer Communications 2013)</i>, Vol. S1-2, pp. 147-149, Yangpyeong, Korea, Aug. 22-23, 2013.",
-            "link": ""
+            "journal": "<i>SWCC 2013 (Summer Workshop on Computer Communications 2013)</i>, Vol. S1-2, pp. 147-149, Yangpyeong, Korea, Aug. 22-23, 2013."
         }
     ],
 
