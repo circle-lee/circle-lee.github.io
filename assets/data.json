@@ -3,6 +3,15 @@
     [
         {
             "title": "Professional Activity",
+            "company_name": "<a href='https://www.sw.or.kr/' target='_blank'>Korea Software Industry Association (KOSA)</a>",
+            "period": "Nov. 2023",
+            "role": "Judge of Software FUTURE&DREAM Challenge 2023",
+            "state": "end",
+            "loc": "l"
+        },
+
+        {
+            "title": "Professional Activity",
             "company_name": "<a href='https://kcf.or.kr/' target='_blank'>Korea Code Fair</a>",
             "period": "Oct. 2022",
             "role": "Judge of Software Contest in 4-th Korea Code Fair",
