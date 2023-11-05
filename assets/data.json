@@ -2,13 +2,12 @@
     "pro_ex":
     [
         {
-            "title": "Software Engineer",
-            "company_name": "<a href='https://linepluscorp.com/' target='_blank'>LINE Plus Corporation</a>",
-            "period": "Aug. 2021- Present",
-            "role": "Desktop Developer",
-            "projects": [ "LINE Desktop" ],
-            "state": "keep",
-            "loc": "r"
+            "title": "Professional Activity",
+            "company_name": "<a href='https://kcf.or.kr/' target='_blank'>Korea Code Fair</a>",
+            "period": "Oct. 2022",
+            "role": "Judge of Software Contest in 4-th Korea Code Fair",
+            "state": "end",
+            "loc": "l"
         },
 
         {
@@ -21,12 +20,13 @@
         },
 
         {
-            "title": "Professional Activity",
-            "company_name": "<a href='https://kcf.or.kr' target='_blank'>Korea Code Fair</a>",
-            "period": "Oct. 2022",
-            "role": "Judge of Software Contest in 4-th Korea Code Fair",
-            "state": "end",
-            "loc": "l"
+            "title": "Software Engineer",
+            "company_name": "<a href='https://linepluscorp.com/' target='_blank'>LINE Plus Corporation</a>",
+            "period": "Aug. 2021- Present",
+            "role": "Desktop Developer",
+            "projects": [ "LINE Desktop" ],
+            "state": "keep",
+            "loc": "r"
         },
 
         {
