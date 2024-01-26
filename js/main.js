@@ -209,6 +209,9 @@ function addPatent(id, jsonData) {
 
     $(id).append($div_patent);
 }
+function addInternationalPatent(idx, jsonData) {
+    addPatent('#inter_pat', jsonData);
+}
 function addDomesticPatent(idx, jsonData) {
     addPatent('#dome_pat', jsonData);
 }
@@ -235,6 +238,7 @@ function renderData() {
     $.each($g_jsonData.inter_jnl, addInternationalJournal);
     $.each($g_jsonData.dome_jnl, addDomesticJournal);
     $.each($g_jsonData.conf, addConference);
+    $.each($g_jsonData.inter_pat, addInternationalPatent);
     $.each($g_jsonData.dome_pat, addDomesticPatent);
     $.each($g_jsonData.awards, addAwards);
 }

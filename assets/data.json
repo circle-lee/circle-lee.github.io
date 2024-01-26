@@ -246,57 +246,111 @@
         }
     ],
 
+    "inter_pat":
+    [
+        {
+            "author": "<b>Won Hyoung Lee</b> and Ji Yeun Kang",
+            "title": "Memory system and operating method thereof,",
+            "date": "Reg. No. 11675522, US, June 13, 2023."
+        },
+        {
+            "author": "Soo Jin Park, Ji Yeun Kang, and <b>Won Hyoung Lee</b>",
+            "title": "Controller for managing cache data, memory system including the same, and method performed by the same,",
+            "date": "Reg. No. 11656793, US, May 23, 2023."
+        },
+        {
+            "author": "Ji Yeun Kang and <b>Won Hyoung Lee</b>",
+            "title": "Storage device and method of operating the same,",
+            "date": "Reg. No. 11543975, US, Jan. 3, 2023."
+        },
+        {
+            "author": "Soo Jin Park and <b>Won Hyoung Lee</b>",
+            "title": "Controller and method of operating the same,",
+            "date": "Reg. No. 11531586, US, Dec. 20, 2022."
+        },
+        {
+            "author": "<b>Won Hyoung Lee</b> and Ji Yeun Kang",
+            "title": "MEMORY SYSTEM AND OPERATING METHOD THEREOF,",
+            "date": "Appl. No. 202210120466.X, CN, Feb. 8, 2022 (Pending)."
+        },
+        {
+            "author": "Soo Jin Park, Ji Yeun Kang, and <b>Won Hyoung Lee</b>",
+            "title": "Controller, memory system including same, and method performed by controller,",
+            "date": "Appl. No. 202210046022.6, CN, Jan. 17, 2022 (Pending)."
+        },
+        {
+            "author": "Soo Jin Park and <b>Won Hyoung Lee</b>",
+            "title": "CONTROLLER AND METHOD FOR OPERATING THE SAME,",
+            "date": "Appl. No. 33170309, JP, Oct. 18, 2021 (Pending)."
+        },
+        {
+            "author": "<b>Won Hyoung Lee</b> and Ji Yeun Kang",
+            "title": "MEMORY SYSTEM AND METHOD FOR OPERATING MEMORY SYSTEM,",
+            "date": "Appl. No. 33162686, JP, Oct. 1, 2021 (Pending)."
+        },
+        {
+            "author": "Soo Jin Park and <b>Won Hyoung Lee</b>",
+            "title": "CONTROLLER AND OPERATING METHOD THEREOF,",
+            "date": "Appl. No. 202110808398.1, CN, July. 16, 2021 (Pending)."
+        },
+        {
+            "author": "Ji Yeun Kang and <b>Won Hyoung Lee</b>",
+            "title": "MEMORY DEVICE AND OPERATING METHOD THEREOF,",
+            "date": "Appl. No. 202110746367.8, CN, July. 1, 2021 (Pending)."
+        }
+    ],
+
     "dome_pat":
     [
         {
             "author": "<b>W. H. Lee</b> and J. Y. Kang,",
             "title": "Memory System and Operating Method Thereof,",
-            "date": "Appl. No. 21-0061361, Korea, May 12, 2021 (pending)."
+            "date": "Appl. No. 10-2021-0061361, KR, May 12, 2021 (pending)."
         },
         {
             "author": "S. J. Park, J. Y. Kang and <b>W. H. Lee</b>,",
             "title": "Controller, Memory System Including the Same, and Method Performed by the Same,",
-            "date": "Appl. No. 21-0044876, Korea, Apr. 6, 2021 (pending)."
+            "date": "Appl. No. 10-2021-0044876, KR, Apr. 6, 2021 (pending)."
         },
         {
             "author": "S. J. Park and <b>W. H. Lee</b>,",
             "title": "Controller and Operating Method Thereof,",
-            "date": "Appl. No. 20-0156048, Korea, Nov. 19, 2020 (pending)."
+            "date": "Appl. No. 10-2020-0156048, KR, Nov. 19, 2020 (pending)."
         },
         {
             "author": "J. Y. Kang and <b>W. H. Lee</b>,",
             "title": "Storage Device and Operating Method Thereof,",
-            "date": "Appl. No. 20-0144654, Korea, Nov. 2, 2020 (pending)."
+            "date": "Appl. No. 10-2020-0144654, KR, Nov. 2, 2020 (pending)."
         },
         {
             "author": "H. Y. Hwang and <b>W. H. Lee</b>,",
             "title": "Method and apparatus for estimating the number of devices in a slotted CSMA/CA network,",
-            "date": "No. 10-2121501, Korea, June 4, 2020."
+            "date": "Reg. No. 10-2121501, KR, June 4, 2020."
         },
         {
             "author": "H. Y. Hwang and <b>W. H. Lee</b>,",
             "title": "Method and apparatus for improving system throughput in slotted CSMA/CA network,",
-            "date": "No. 10-2070301, Korea, Jan. 20, 2020."
+            "date": "Reg. No. 10-2070301, KR, Jan. 20, 2020."
         },
         {
             "author": "H. Y. Hwang and <b>W. H. Lee</b>,",
             "title": "Apparatus and method for transmitting aggregated frame,",
-            "date": "No. 10-1974168, Korea, Apr. 24, 2019."
+            "date": "Reg. No. 10-1974168, KR, Apr. 24, 2019."
         },
         {
             "author": "H. Y. Hwang, D.-H. Lee, <b>W. H. Lee</b>, and S.-M. Kang,",
             "title": "Path selection method and apparatus in cognitive radio network,",
-            "date": "No. 10-1824190, Korea, Jan. 25, 2018."
+            "date": "Reg. No. 10-1824190, KR, Jan. 25, 2018."
         },
         {
             "author": "H. Y. Hwang, I. G. Jeong, and <b>W. H. Lee</b>,",
             "title": "Method of Improving Service Rate using Minimum Received Power in Cognitive Relay Network and Apparatus Thereof,",
-            "date": "No. 10-1626952, Korea, May 27, 2016."
+            "date": "Reg. No. 10-1626952, KR, May 27, 2016."
         },
         {
             "author": "H. Y. Hwang, I. G. Jeong, and <b>W. H. Lee</b>,",
             "title": "Method of Improving Service Rate using Maximum Link Rate in Cognitive Relay Network and Apparatus Thereof,",
-            "date": "No. 10-1626951, Korea, May 27, 2016."
+            "date": "Reg. No. 10-1626951, KR, May 27, 2016."
         }
     ],
 
