@@ -2,24 +2,6 @@
     "pro_ex":
     [
         {
-            "title": "Professional Activity",
-            "company_name": "<a href='https://www.sw.or.kr/' target='_blank'>Korea Software Industry Association (KOSA)</a>",
-            "period": "Nov. 2023",
-            "role": "Judge of Software FUTURE&DREAM Challenge 2023",
-            "state": "end",
-            "loc": "l"
-        },
-
-        {
-            "title": "Professional Activity",
-            "company_name": "<a href='https://kcf.or.kr/' target='_blank'>Korea Code Fair</a>",
-            "period": "Oct. 2022",
-            "role": "Judge of Software Contest in 4-th Korea Code Fair",
-            "state": "end",
-            "loc": "l"
-        },
-
-        {
             "title": "Extra Activity",
             "company_name": "<a href='https://careerly.co.kr/'>Careerly</a>",
             "period": "July 2022 - Present",
@@ -35,6 +17,25 @@
             "role": "Desktop Developer",
             "projects": [ "LINE Desktop" ],
             "state": "keep",
+            "loc": "l"
+        },
+
+        
+        {
+            "title": "Professional Activity",
+            "company_name": "<a href='https://www.sw.or.kr/' target='_blank'>Korea Software Industry Association (KOSA)</a>",
+            "period": "Nov. 2023",
+            "role": "Judge of Software FUTURE&DREAM Challenge 2023",
+            "state": "end",
+            "loc": "r"
+        },
+
+        {
+            "title": "Professional Activity",
+            "company_name": "<a href='https://kcf.or.kr/' target='_blank'>Korea Code Fair</a>",
+            "period": "Oct. 2022",
+            "role": "Judge of Software Contest in 4-th Korea Code Fair",
+            "state": "end",
             "loc": "r"
         },
 
@@ -45,7 +46,7 @@
             "role": "SSD FTL Developer",
             "projects": [ "PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD" ],
             "state": "end",
-            "loc": "r"
+            "loc": "l"
         },
 
         {
@@ -55,7 +56,7 @@
             "role": "SSD FTL Developer",
             "projects": [ "PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD", "PE8110 - PCIe Gen3 Enterprise SSD" ],
             "state": "end",
-            "loc": "r"
+            "loc": "l"
         },
 
         {
@@ -65,7 +66,7 @@
             "role": "Web (FE/BE) Developer",
             "projects": [ "Homepage of General Students' Association at Korea Univ.", "Homepage of Counseling Program at Korea University", "Homepage of Smart&Wise" ],
             "state": "end",
-            "loc": "l"
+            "loc": "r"
         },
 
         {
@@ -75,7 +76,7 @@
             "role": "Windows Developer",
             "projects": [ "Book Searcher for KIOSK", "eBook Viewer for KIOSK", "eBook Viewer for web" ],
             "state": "end",
-            "loc": "r"
+            "loc": "l"
         }
     ],
 
