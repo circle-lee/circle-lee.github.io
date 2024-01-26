@@ -177,11 +177,11 @@ function addPaper(id, jsonData) {
     
     var $div_paper = $('<div class="paper"></div>');
     $div_paper.append($('<p>' + author + '</p>'));
-    if (!!link) {
-        $div_paper.append($('<p class="title">"' + title + '"</p>'));
+    if (link !== undefined && link !== "") {
+        $div_paper.append($('<p class="title"><a target="_blank" href="' + link + '">"' + title + '"</a></p>'));
     }
     else {
-        $div_paper.append($('<p class="title"><a target="_blank" href="' + link + '">"' + title + '"</a></p>'));
+        $div_paper.append($('<p class="title">"' + title + '"</p>'));
     }
     $div_paper.append($('<p class="journal">' + journal + '</p>'));
 
