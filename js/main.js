@@ -201,10 +201,16 @@ function addPatent(id, jsonData) {
     var author = jsonData.author;
     var title = jsonData.title;
     var date = jsonData.date;
+    var link = jsonData.link;
     
     var $div_patent = $('<div class="patent"></div>');
     $div_patent.append($('<p>' + author + '</p>'));
-    $div_patent.append($('<p class="title">"' + title + '"</p>'));
+    if (link !== undefined && link !== "") {
+        $div_patent.append($('<p class="title"><a target="_blank" href="' + link + '">"' + title + '"</a></p>'));
+    }
+    else {
+        $div_patent.append($('<p class="title">"' + title + '"</p>'));
+    }
     $div_patent.append($('<p>' + date + '</p>'));
 
     $(id).append($div_patent);
