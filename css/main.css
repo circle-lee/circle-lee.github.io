@@ -64,8 +64,9 @@ article {
 .profile-img {
     display: inline-block;
     background-image: url('../assets/profile.jpg');
-    width: 128px;
-    height: 148px;
+    background-position: center;
+    width: 285px;
+    height: 287px;
 }
 .profile-text {
     display: inline-block;
