@@ -2,6 +2,25 @@
     "pro_ex":
     [
         {
+            "title": "Google for Developers ML Bootcamp",
+            "company_name": "Google Developers Group",
+            "period": "June 2024 - Present",
+            "projects": [ "Coursera - Deep Learning Specialization" ],
+            "state": "keep",
+            "loc": "r"
+        },
+
+        {
+            "title": "Software Engineer",
+            "company_name": "<a href='https://linepluscorp.com/' target='_blank'>LINE Plus Corporation</a>",
+            "period": "Aug. 2021 - Present",
+            "role": "Desktop Developer",
+            "projects": [ "LINE Messenger for Windows", "LINE Messenger for MacOS" ],
+            "state": "keep",
+            "loc": "r"
+        },
+
+        {
             "title": "Extra Activity",
             "company_name": "<a href='https://careerly.co.kr/'>Careerly</a>",
             "period": "July 2022 - July 2024",
@@ -9,17 +28,6 @@
             "state": "end",
             "loc": "l"
         },
-
-        {
-            "title": "Software Engineer",
-            "company_name": "<a href='https://linepluscorp.com/' target='_blank'>LINE Plus Corporation</a>",
-            "period": "Aug. 2021- Present",
-            "role": "Desktop Developer",
-            "projects": [ "LINE Desktop" ],
-            "state": "keep",
-            "loc": "l"
-        },
-
         
         {
             "title": "Professional Activity",

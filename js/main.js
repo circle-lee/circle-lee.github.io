@@ -20,7 +20,11 @@ function addProEx(idx, jsonData) {
     var $div_content = $("<div class='content "+ state +"'></div>");
     $div_content.append('<p>' + title + ", " + period + '</p>');
     $div_content.append('<p class="white-space"><i class="fas fa-building"></i> ' + company_name + '</p>');
-    $div_content.append('<p class="white-space"><i class="fas fa-keyboard"></i> ' + role + '</p>');
+    
+    if (!!role) {
+        $div_content.append('<p class="white-space"><i class="fas fa-keyboard"></i> ' + role + '</p>');
+    }
+
     $.each(projects, function (idx, project) {
         $div_content.append('<p class="deeper-white-space"><i class="fas fa-check"></i> ' + project + '</p>');
     });
