@@ -15,7 +15,10 @@
             "company_name": "<a href='https://linepluscorp.com/' target='_blank'>LINE Plus Corporation</a>",
             "period": "Aug. 2021 - Present",
             "role": "Desktop Developer",
-            "projects": [ "LINE Messenger for Windows", "LINE Messenger for MacOS" ],
+            "projects": [
+                "LINE Messenger for Windows",
+                "LINE Messenger for MacOS"
+            ],
             "state": "keep",
             "loc": "r"
         },
@@ -52,7 +55,10 @@
             "company_name": "<a href='https://www.skhynix.com' target='_blank'>SK hynix</a>",
             "period": "Jan. 2021 - July 2021",
             "role": "SSD FTL Developer",
-            "projects": [ "PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD" ],
+            "projects": [
+                "PE9110 - PCIe Gen4 DataCenter SSD",
+                "PC801 - PCIe Gen4 Client SSD"
+            ],
             "state": "end",
             "loc": "l"
         },
@@ -62,7 +68,11 @@
             "company_name": "<a href='https://www.skhynix.com' target='_blank'>SK hynix</a>",
             "period": "Jan. 2019 - Dec. 2020",
             "role": "SSD FTL Developer",
-            "projects": [ "PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD", "PE8110 - PCIe Gen3 Enterprise SSD" ],
+            "projects": [
+                "PE9110 - PCIe Gen4 DataCenter SSD",
+                "PC801 - PCIe Gen4 Client SSD",
+                "PE8110 - PCIe Gen3 Enterprise SSD"
+            ],
             "state": "end",
             "loc": "l"
         },
@@ -72,7 +82,11 @@
             "company_name": "<a href='http://www.smartandwise.co.kr' target='_blank'>Smart&Wise</a>",
             "period": "July 2015 - Jan. 2016",
             "role": "Web (FE/BE) Developer",
-            "projects": [ "Homepage of General Students' Association at Korea Univ.", "Homepage of Counseling Program at Korea University", "Homepage of Smart&Wise" ],
+            "projects": [
+                "Homepage of General Students' Association at Korea Univ.",
+                "Homepage of Counseling Program at Korea University",
+                "Homepage of Smart&Wise"
+            ],
             "state": "end",
             "loc": "r"
         },
@@ -82,7 +96,11 @@
             "company_name": "<a href='http://www.eco.co.kr' target='_blank'>ECO, Inc.</a>",
             "period": "Sep. 2013 - June 2015",
             "role": "Windows Developer",
-            "projects": [ "Book Searcher for KIOSK", "eBook Viewer for KIOSK", "eBook Viewer for web" ],
+            "projects": [
+                "Book Searcher for KIOSK",
+                "eBook Viewer for KIOSK",
+                "eBook Viewer for web"
+            ],
             "state": "end",
             "loc": "l"
         }
@@ -127,7 +145,13 @@
             "title": "Research Assistant",
             "period": "May 2012 - Dec. 2018",
             "place": "in Information and Communication Technology Lab.",
-            "details": [ "2 SCIE Journal papers (1st author)", "2 KCI Journal papers (1st and co-author)", "1 International Conference paper", "3 Domestic Conference papers.", "6 Domestic patents" ],
+            "details": [
+                "2 SCIE Journal papers (1st author)",
+                "2 KCI Journal papers (1st and co-author)",
+                "1 International Conference paper",
+                "3 Domestic Conference papers.",
+                "6 Domestic patents"
+            ],
             "loc": "r"
         }
     ],
