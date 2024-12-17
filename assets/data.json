@@ -16,9 +16,36 @@
         
         {
             "title": "Professional Activity",
+            "company_name": "<a href='https://www.mju.ac.kr/' target='_blank'>Myongji University</a>",
+            "period": "Dec. 2024",
+            "role": "Judge, Practical Training Presentation in Myongji University",
+            "state": "end",
+            "loc": "r"
+        },
+        
+        {
+            "title": "Professional Activity",
+            "company_name": "<a href='https://www.mju.ac.kr/' target='_blank'>Myongji University</a>",
+            "period": "Dec. 2024",
+            "role": "Judge, Capstone Presentation in Myongji University",
+            "state": "end",
+            "loc": "r"
+        },
+        
+        {
+            "title": "Professional Activity",
+            "company_name": "<a href='https://www.sw.or.kr/' target='_blank'>Korea Software Industry Association (KOSA)</a>",
+            "period": "Dec. 2024",
+            "role": "Judge and Mentor, KDT Integrated Project Presentation",
+            "state": "end",
+            "loc": "r"
+        },
+        
+        {
+            "title": "Professional Activity",
             "company_name": "<a href='https://www.sw.or.kr/' target='_blank'>Korea Software Industry Association (KOSA)</a>",
             "period": "Nov. 2024",
-            "role": "Judge of Software FUTURE&DREAM Challenge 2024",
+            "role": "Judge, Software FUTURE&DREAM Challenge 2024",
             "state": "end",
             "loc": "r"
         },
@@ -50,7 +77,7 @@
             "title": "Professional Activity",
             "company_name": "<a href='https://www.sw.or.kr/' target='_blank'>Korea Software Industry Association (KOSA)</a>",
             "period": "Nov. 2023",
-            "role": "Judge of Software FUTURE&DREAM Challenge 2023",
+            "role": "Judge, Software FUTURE&DREAM Challenge 2023",
             "state": "end",
             "loc": "r"
         },
@@ -59,7 +86,7 @@
             "title": "Professional Activity",
             "company_name": "<a href='https://kcf.or.kr/' target='_blank'>Korea Code Fair</a>",
             "period": "Oct. 2022",
-            "role": "Judge of Software Contest in 4-th Korea Code Fair",
+            "role": "Judge, Software Contest in 4-th Korea Code Fair",
             "state": "end",
             "loc": "r"
         },
