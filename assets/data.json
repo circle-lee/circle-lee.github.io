@@ -1,436 +1,437 @@
 {
-  "pro_ex": [
-    {
-      "title": "Software Engineer",
-      "company_name": "<a href='https://linepluscorp.com/' target='_blank'>LINE Plus Corporation</a>",
-      "period": "Aug. 2021 - Present",
-      "role": "Desktop Developer",
-      "projects": ["LINE Desktop", "LINE Agent Desktop"],
-      "state": "keep",
-      "loc": "l"
-    },
+    "pro_ex": [
+        {
+            "title": "Software Engineer",
+            "company_name": "<a href='https://linepluscorp.com/' target='_blank'>LINE Plus Corporation</a>",
+            "period": "Aug. 2021 - Present",
+            "role": "Desktop Developer",
+            "skillSets": [
+                ["C++", "Qt"],
+                ["TypeScript", "React", "Electron"]
+            ],
+            "projects": ["LINE Desktop", "LINE Agent Desktop"],
+            "state": "keep",
+            "loc": "l"
+        },
 
-    {
-      "title": "Professional Activity",
-      "company_name": "<a href='https://www.sw.or.kr/' target='_blank'>Korea Software Industry Association</a>",
-      "period": "May 2025 - Present",
-      "role": "Mentor, miraeplus",
-      "state": "keep",
-      "loc": "r"
-    },
+        {
+            "title": "Professional Activity",
+            "company_name": "<a href='https://www.sw.or.kr/' target='_blank'>Korea Software Industry Association</a>",
+            "period": "May 2025 - Present",
+            "role": "Mentor, miraeplus",
+            "state": "keep",
+            "loc": "r"
+        },
 
-    {
-      "title": "Professional Activity",
-      "company_name": "<a href='https://www.mju.ac.kr/' target='_blank'>Myongji University</a>",
-      "period": "Dec. 2024",
-      "role": "Judge, Practical Training Presentation in Myongji University",
-      "state": "end",
-      "loc": "r"
-    },
+        {
+            "title": "Professional Activity",
+            "company_name": "<a href='https://www.mju.ac.kr/' target='_blank'>Myongji University</a>",
+            "period": "Dec. 2024",
+            "role": "Judge, Practical Training Presentation in Myongji University",
+            "state": "end",
+            "loc": "r"
+        },
 
-    {
-      "title": "Professional Activity",
-      "company_name": "Myongji University",
-      "period": "Dec. 2024",
-      "role": "Judge, Capstone Presentation in Myongji University",
-      "state": "end",
-      "loc": "r"
-    },
+        {
+            "title": "Professional Activity",
+            "company_name": "Myongji University",
+            "period": "Dec. 2024",
+            "role": "Judge, Capstone Presentation in Myongji University",
+            "state": "end",
+            "loc": "r"
+        },
 
-    {
-      "title": "Professional Activity",
-      "company_name": "Korea Software Industry Association",
-      "period": "Dec. 2024",
-      "role": "Judge and Mentor, KDT Integrated Project Presentation",
-      "state": "end",
-      "loc": "r"
-    },
+        {
+            "title": "Professional Activity",
+            "company_name": "Korea Software Industry Association",
+            "period": "Dec. 2024",
+            "role": "Judge and Mentor, KDT Integrated Project Presentation",
+            "state": "end",
+            "loc": "r"
+        },
 
-    {
-      "title": "Professional Activity",
-      "company_name": "Korea Software Industry Association",
-      "period": "Nov. 2024",
-      "role": "Judge, Software FUTURE&DREAM Challenge 2024",
-      "state": "end",
-      "loc": "r"
-    },
+        {
+            "title": "Professional Activity",
+            "company_name": "Korea Software Industry Association",
+            "period": "Nov. 2024",
+            "role": "Judge, Software FUTURE&DREAM Challenge 2024",
+            "state": "end",
+            "loc": "r"
+        },
 
-    {
-      "title": "Google for Developers ML Bootcamp",
-      "company_name": "Google Developers Group",
-      "period": "June 2024 - Oct. 2024",
-      "projects": [
-        "Gemma Sprint - NL2SQL | <a href='https://youtube.com/shorts/q7lePRqd3Kk?feature=share' target='_blank'>Demo Video</a> | <a href='https://www.linkedin.com/posts/circlelee_main-activity-7247102526934695936-aoZL' target='_blank'>Post</a>",
-        "<a href='https://www.kaggle.com/' target='_blank'>Kaggle</a> - Research | <a href='https://www.kaggle.com/competitions/isic-2024-challenge' target='_blank'>ISIC 2024</a>",
-        "Kaggle - Playground | <a href='https://www.kaggle.com/competitions/playground-series-s4e7' target='_blank'>S4E7</a>",
-        "<a href='https://www.coursera.org/' target='_blank'>Coursera</a> - <a href='https://www.coursera.org/specializations/deep-learning' target='_blank'>Deep Learning Specialization</a>"
-      ],
-      "state": "end",
-      "loc": "l"
-    },
+        {
+            "title": "Google for Developers ML Bootcamp",
+            "company_name": "Google Developers Group",
+            "period": "June 2024 - Oct. 2024",
+            "projects": [
+                "Gemma Sprint - NL2SQL | <a href='https://youtube.com/shorts/q7lePRqd3Kk?feature=share' target='_blank'>Demo Video</a> | <a href='https://www.linkedin.com/posts/circlelee_main-activity-7247102526934695936-aoZL' target='_blank'>Post</a>",
+                "<a href='https://www.kaggle.com/' target='_blank'>Kaggle</a> - Research | <a href='https://www.kaggle.com/competitions/isic-2024-challenge' target='_blank'>ISIC 2024</a>",
+                "Kaggle - Playground | <a href='https://www.kaggle.com/competitions/playground-series-s4e7' target='_blank'>S4E7</a>",
+                "<a href='https://www.coursera.org/' target='_blank'>Coursera</a> - <a href='https://www.coursera.org/specializations/deep-learning' target='_blank'>Deep Learning Specialization</a>"
+            ],
+            "state": "end",
+            "loc": "l"
+        },
 
-    {
-      "title": "Extra Activity",
-      "company_name": "<a href='https://careerly.co.kr/'>Careerly</a>",
-      "period": "July 2022 - July 2024",
-      "role": "<a href='https://careerly.co.kr/@circlelee'>Curator</a>",
-      "state": "end",
-      "loc": "r"
-    },
+        {
+            "title": "Extra Activity",
+            "company_name": "<a href='https://careerly.co.kr/'>Careerly</a>",
+            "period": "July 2022 - July 2024",
+            "role": "<a href='https://careerly.co.kr/@circlelee'>Curator</a>",
+            "state": "end",
+            "loc": "r"
+        },
 
-    {
-      "title": "Professional Activity",
-      "company_name": "Korea Software Industry Association",
-      "period": "Nov. 2023",
-      "role": "Judge, Software FUTURE&DREAM Challenge 2023",
-      "state": "end",
-      "loc": "r"
-    },
+        {
+            "title": "Professional Activity",
+            "company_name": "Korea Software Industry Association",
+            "period": "Nov. 2023",
+            "role": "Judge, Software FUTURE&DREAM Challenge 2023",
+            "state": "end",
+            "loc": "r"
+        },
 
-    {
-      "title": "Professional Activity",
-      "company_name": "<a href='https://kcf.or.kr/' target='_blank'>Korea Code Fair</a>",
-      "period": "Oct. 2022",
-      "role": "Judge, 4-th Korea Code Fair Software Competition",
-      "state": "end",
-      "loc": "r"
-    },
+        {
+            "title": "Professional Activity",
+            "company_name": "<a href='https://kcf.or.kr/' target='_blank'>Korea Code Fair</a>",
+            "period": "Oct. 2022",
+            "role": "Judge, 4-th Korea Code Fair Software Competition",
+            "state": "end",
+            "loc": "r"
+        },
 
-    {
-      "title": "Firmware Engineer (CL3)",
-      "company_name": "<a href='https://www.skhynix.com' target='_blank'>SK hynix</a>",
-      "period": "Jan. 2021 - July 2021",
-      "role": "SSD FTL Developer",
-      "projects": [
-        "PE9110 - PCIe Gen4 DataCenter SSD",
-        "PC801 - PCIe Gen4 Client SSD"
-      ],
-      "state": "end",
-      "loc": "l"
-    },
+        {
+            "title": "Firmware Engineer (CL3)",
+            "company_name": "<a href='https://www.skhynix.com' target='_blank'>SK hynix</a>",
+            "period": "Jan. 2021 - July 2021",
+            "role": "SSD FTL Developer",
+            "skillSets": [["C", "C++", "ARM Assembly"]],
+            "projects": ["PE9110 - PCIe Gen4 DataCenter SSD", "PC801 - PCIe Gen4 Client SSD"],
+            "state": "end",
+            "loc": "l"
+        },
 
-    {
-      "title": "Junior Firmware Engineer (CL2)",
-      "company_name": "<a href='https://www.skhynix.com' target='_blank'>SK hynix</a>",
-      "period": "Jan. 2019 - Dec. 2020",
-      "role": "SSD FTL Developer",
-      "projects": [
-        "PE9110 - PCIe Gen4 DataCenter SSD",
-        "PC801 - PCIe Gen4 Client SSD",
-        "PE8110 - PCIe Gen3 Enterprise SSD"
-      ],
-      "state": "end",
-      "loc": "l"
-    },
+        {
+            "title": "Junior Firmware Engineer (CL2)",
+            "company_name": "<a href='https://www.skhynix.com' target='_blank'>SK hynix</a>",
+            "period": "Jan. 2019 - Dec. 2020",
+            "role": "SSD FTL Developer",
+            "skillSets": [["C", "C++", "ARM Assembly"]],
+            "projects": [
+                "PE9110 - PCIe Gen4 DataCenter SSD",
+                "PC801 - PCIe Gen4 Client SSD",
+                "PE8110 - PCIe Gen3 Enterprise SSD"
+            ],
+            "state": "end",
+            "loc": "l"
+        },
 
-    {
-      "title": "Software Engineer",
-      "company_name": "Smart&Wise",
-      "period": "July 2015 - Jan. 2016",
-      "role": "Web (FE/BE) Developer",
-      "projects": [
-        "Homepage of General Students' Association at Korea Univ.",
-        "Homepage of Counseling Program at Korea University",
-        "Homepage of Smart&Wise"
-      ],
-      "state": "end",
-      "loc": "r"
-    },
+        {
+            "title": "Software Engineer",
+            "company_name": "Smart&Wise",
+            "period": "July 2015 - Jan. 2016",
+            "role": "Web (FE/BE) Developer",
+            "skillSets": [["PHP"], ["JavaScript", "NodeJS", "ExpressJS"], ["C#", "ASP.NET"]],
+            "projects": [
+                "Homepage of General Students' Association at Korea Univ.",
+                "Homepage of Counseling Program at Korea University",
+                "Homepage of Smart&Wise"
+            ],
+            "state": "end",
+            "loc": "r"
+        },
 
-    {
-      "title": "Software Engineer",
-      "company_name": "ECO, Inc.",
-      "period": "Sep. 2013 - June 2015",
-      "role": "Windows Developer",
-      "projects": [
-        "Book Searcher for KIOSK",
-        "eBook Viewer for KIOSK",
-        "eBook Viewer for web"
-      ],
-      "state": "end",
-      "loc": "l"
-    }
-  ],
+        {
+            "title": "Software Engineer",
+            "company_name": "ECO, Inc.",
+            "period": "Sep. 2013 - June 2015",
+            "role": "Windows Developer",
+            "skillSets": [["C++"], ["C#", "WPF"], ["Java", "Spring"]],
+            "projects": ["Book Searcher for KIOSK", "eBook Viewer for KIOSK", "eBook Viewer for web"],
+            "state": "end",
+            "loc": "l"
+        }
+    ],
 
-  "academic_ex": [
-    {
-      "title": "Graduate Teaching Assistant",
-      "period": "Mar. 2017 - Dec. 2018",
-      "place": "at Dept. of Computer Engineering, Kwangwoon Univ.",
-      "loc": "r"
-    },
+    "academic_ex": [
+        {
+            "title": "Graduate Teaching Assistant",
+            "period": "Mar. 2017 - Dec. 2018",
+            "place": "at Dept. of Computer Engineering, Kwangwoon Univ.",
+            "loc": "r"
+        },
 
-    {
-      "title": "Teaching Assistant",
-      "period": "Feb. 2018",
-      "name": "Software School",
-      "place": "in College of Software and Convergence at Kwangwoon Univ.",
-      "instructor": "Prof. Doo-Ok Seo",
-      "loc": "l"
-    },
+        {
+            "title": "Teaching Assistant",
+            "period": "Feb. 2018",
+            "name": "Software School",
+            "place": "in College of Software and Convergence at Kwangwoon Univ.",
+            "instructor": "Prof. Doo-Ok Seo",
+            "loc": "l"
+        },
 
-    {
-      "title": "Teaching Assistant",
-      "period": "Dec. 2017",
-      "name": "Software Winter School",
-      "place": "in College of Software and Convergence at Kwangwoon Univ.",
-      "loc": "r"
-    },
+        {
+            "title": "Teaching Assistant",
+            "period": "Dec. 2017",
+            "name": "Software Winter School",
+            "place": "in College of Software and Convergence at Kwangwoon Univ.",
+            "loc": "r"
+        },
 
-    {
-      "title": "Teaching Assistant",
-      "period": "Aug. 2015",
-      "name": "IDEC Summer Campus Courses",
-      "place": "at Kwangwoon Univ.",
-      "instructor": "Prof. Ho Young Hwang",
-      "loc": "l"
-    },
+        {
+            "title": "Teaching Assistant",
+            "period": "Aug. 2015",
+            "name": "IDEC Summer Campus Courses",
+            "place": "at Kwangwoon Univ.",
+            "instructor": "Prof. Ho Young Hwang",
+            "loc": "l"
+        },
 
-    {
-      "title": "Research Assistant",
-      "period": "May 2012 - Dec. 2018",
-      "place": "in Information and Communication Technology Lab.",
-      "details": [
-        "2 SCIE Journal papers (1st author)",
-        "2 KCI Journal papers (1st and co-author)",
-        "1 International Conference paper",
-        "3 Domestic Conference papers.",
-        "6 Domestic patents"
-      ],
-      "loc": "r"
-    }
-  ],
+        {
+            "title": "Research Assistant",
+            "period": "May 2012 - Dec. 2018",
+            "place": "in Information and Communication Technology Lab.",
+            "details": [
+                "2 SCIE Journal papers (1st author)",
+                "2 KCI Journal papers (1st and co-author)",
+                "1 International Conference paper",
+                "3 Domestic Conference papers.",
+                "6 Domestic patents"
+            ],
+            "loc": "r"
+        }
+    ],
 
-  "edu": [
-    {
-      "degree_name": "M.E degree at Dept. of Computer Engineering",
-      "period": "2017 - 2018",
-      "school": "Kwangwoon Univ.",
-      "lab": "in Information and Communication Technology (ICT) Laboratory",
-      "loc": "l"
-    },
+    "edu": [
+        {
+            "degree_name": "M.E degree at Dept. of Computer Engineering",
+            "period": "2017 - 2018",
+            "school": "Kwangwoon Univ.",
+            "lab": "in Information and Communication Technology (ICT) Laboratory",
+            "loc": "l"
+        },
 
-    {
-      "degree_name": "B.E degree at Dept. of Computer Engineering",
-      "period": "2011 - 2016",
-      "school": "Kwangwoon Univ.",
-      "detail": "graduated at the top of Dept. of Computer Engineering, Kwangwoon Univ. (1/84)",
-      "loc": "r"
-    }
-  ],
+        {
+            "degree_name": "B.E degree at Dept. of Computer Engineering",
+            "period": "2011 - 2016",
+            "school": "Kwangwoon Univ.",
+            "detail": "graduated at the top of Dept. of Computer Engineering, Kwangwoon Univ. (1/84)",
+            "loc": "r"
+        }
+    ],
 
-  "open_src": [
-    {
-      "img_name": "NS-3.png"
-    },
-    {
-      "img_name": "GNUboard5.png"
-    }
-  ],
+    "open_src": [
+        {
+            "img_name": "NS-3.png"
+        },
+        {
+            "img_name": "GNUboard5.png"
+        }
+    ],
 
-  "tech_stack": [
-    {
-      "img_name": "C.png"
-    },
-    {
-      "img_name": "cpp.png"
-    },
-    {
-      "img_name": "Csharp.png"
-    },
-    {
-      "img_name": "python.png"
-    },
-    {
-      "img_name": "php.png"
-    },
-    {
-      "img_name": "matlab.png"
-    },
-    {
-      "img_name": "html5.png"
-    },
-    {
-      "img_name": "javascript.png"
-    },
-    {
-      "img_name": "xna.png"
-    },
-    {
-      "img_name": "WPF.png"
-    },
-    {
-      "img_name": "NS-3.png"
-    },
-    {
-      "img_name": "GNUboard5.png"
-    }
-  ],
-  "inter_jnl": [
-    {
-      "author": "<b>Won Hyoung Lee</b> and Ho Young Hwang,",
-      "title": "A-MPDU aggregation with optimal number of MPDUs for delay requirements in IEEE 802.11ac,",
-      "journal": "<i>PLoS ONE</i>, 14(3): e0213888, 17 pages, Mar. 2019 (<b>SCIE</b>).",
-      "link": "https://doi.org/10.1371/journal.pone.0213888"
-    },
-    {
-      "author": "<b>Won Hyoung Lee</b>, Ho Young Hwang, and Jo Woon Chong,",
-      "title": "Runtime Estimation of the Number of Active Devices in IEEE 802.15.4 slotted CSMA/CA Networks with Deferred Transmission and No Acknowledgment using ARMA Filters,",
-      "journal": "<i>Wireless Communications and Mobile Computing</i>, Vol. 2018, Article ID 5420876, 12 pages, Sep. 2018 (<b>SCIE</b>).",
-      "link": "https://doi.org/10.1155/2018/5420876"
-    }
-  ],
-  "dome_jnl": [
-    {
-      "author": "<b>W. H. Lee</b> and H. Y. Hwang,",
-      "title": "Tuning Backoff Period for Enhancing System Throughput with Estimating Number of Devices in IEEE 802.15.4 Slotted CSMA/CA,",
-      "journal": "<i>The Journal of KIICE (The Journal of the Korea Institute of Information and Communication Engineering)</i>, Vol. 22, No. 9, pp. 1243-1249, Sep. 2018 (KCI).",
-      "link": "http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07538585"
-    },
-    {
-      "author": "D.-H. Lee, <b>W. H. Lee</b>, S.-M. Kang, and H. Y. Hwang,",
-      "title": "Frequency Allocation and Path Selection Scheme in Underlay Cognitive Radio Networks with Application of Network Coding,",
-      "journal": "<i>The Journal of KICS (The Journal of the Korean Institute of Communication Sciences)</i>, Vol. 40, No. 12, pp. 2372-2380, Dec. 2015 (KCI).",
-      "link": "http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06579095"
-    }
-  ],
-  "conf": [
-    {
-      "author": "<b>W. H. Lee</b> and H. Y. Hwang,",
-      "title": "Performance Evaluation of A-MPDU Aggregation for Delay Requirements in IEEE 802.11ac,",
-      "journal": "<i>KICS Conference Fall 2016</i>, pp. 342-343, Seoul, Korea, Nov. 19, 2016."
-    },
-    {
-      "author": "D.-H. Lee, <b>W. H. Lee</b>, and H. Y. Hwang,",
-      "title": "Network Coding-Based Relay Selection in Underlay Cognitive Radio Networks,",
-      "journal": "<i>KICS Conference Fall 2014</i>, pp. 352-353, Daejeon, Korea, Nov. 22, 2014."
-    },
-    {
-      "author": "D.-H. Lee, <b>W. H. Lee</b>, E. Choi, and H. Y. Hwang,",
-      "title": "Subcarrier Allocation and Relay Selection for Uplink Transmission in OFDMA-Based Cognitive Radio Systems,",
-      "journal": "<i>2013 International Conference on ICT Convergence (ICTC)</i>, Jeju, Korea, pp. 485-487, Oct. 14-16, 2013.",
-      "link": "https://doi.org/10.1109/ICTC.2013.6675402"
-    },
-    {
-      "author": "<b>W. H. Lee</b>, E. Choi, D.-H. Lee, and H. Y. Hwang,",
-      "title": "Performance Evaluation of a Downlink Bandwidth Allocation Scheme with Inter-Cell Interference in LTE-based Relay Systems,",
-      "journal": "<i>SWCC 2013 (Summer Workshop on Computer Communications 2013)</i>, Vol. S1-2, pp. 147-149, Yangpyeong, Korea, Aug. 22-23, 2013."
-    }
-  ],
+    "tech_stack": [
+        {
+            "img_name": "C.png"
+        },
+        {
+            "img_name": "cpp.png"
+        },
+        {
+            "img_name": "Csharp.png"
+        },
+        {
+            "img_name": "python.png"
+        },
+        {
+            "img_name": "php.png"
+        },
+        {
+            "img_name": "matlab.png"
+        },
+        {
+            "img_name": "html5.png"
+        },
+        {
+            "img_name": "javascript.png"
+        },
+        {
+            "img_name": "xna.png"
+        },
+        {
+            "img_name": "WPF.png"
+        },
+        {
+            "img_name": "NS-3.png"
+        },
+        {
+            "img_name": "GNUboard5.png"
+        }
+    ],
+    "inter_jnl": [
+        {
+            "author": "<b>Won Hyoung Lee</b> and Ho Young Hwang,",
+            "title": "A-MPDU aggregation with optimal number of MPDUs for delay requirements in IEEE 802.11ac,",
+            "journal": "<i>PLoS ONE</i>, 14(3): e0213888, 17 pages, Mar. 2019 (<b>SCIE</b>).",
+            "link": "https://doi.org/10.1371/journal.pone.0213888"
+        },
+        {
+            "author": "<b>Won Hyoung Lee</b>, Ho Young Hwang, and Jo Woon Chong,",
+            "title": "Runtime Estimation of the Number of Active Devices in IEEE 802.15.4 slotted CSMA/CA Networks with Deferred Transmission and No Acknowledgment using ARMA Filters,",
+            "journal": "<i>Wireless Communications and Mobile Computing</i>, Vol. 2018, Article ID 5420876, 12 pages, Sep. 2018 (<b>SCIE</b>).",
+            "link": "https://doi.org/10.1155/2018/5420876"
+        }
+    ],
+    "dome_jnl": [
+        {
+            "author": "<b>W. H. Lee</b> and H. Y. Hwang,",
+            "title": "Tuning Backoff Period for Enhancing System Throughput with Estimating Number of Devices in IEEE 802.15.4 Slotted CSMA/CA,",
+            "journal": "<i>The Journal of KIICE (The Journal of the Korea Institute of Information and Communication Engineering)</i>, Vol. 22, No. 9, pp. 1243-1249, Sep. 2018 (KCI).",
+            "link": "http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07538585"
+        },
+        {
+            "author": "D.-H. Lee, <b>W. H. Lee</b>, S.-M. Kang, and H. Y. Hwang,",
+            "title": "Frequency Allocation and Path Selection Scheme in Underlay Cognitive Radio Networks with Application of Network Coding,",
+            "journal": "<i>The Journal of KICS (The Journal of the Korean Institute of Communication Sciences)</i>, Vol. 40, No. 12, pp. 2372-2380, Dec. 2015 (KCI).",
+            "link": "http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06579095"
+        }
+    ],
+    "conf": [
+        {
+            "author": "<b>W. H. Lee</b> and H. Y. Hwang,",
+            "title": "Performance Evaluation of A-MPDU Aggregation for Delay Requirements in IEEE 802.11ac,",
+            "journal": "<i>KICS Conference Fall 2016</i>, pp. 342-343, Seoul, Korea, Nov. 19, 2016."
+        },
+        {
+            "author": "D.-H. Lee, <b>W. H. Lee</b>, and H. Y. Hwang,",
+            "title": "Network Coding-Based Relay Selection in Underlay Cognitive Radio Networks,",
+            "journal": "<i>KICS Conference Fall 2014</i>, pp. 352-353, Daejeon, Korea, Nov. 22, 2014."
+        },
+        {
+            "author": "D.-H. Lee, <b>W. H. Lee</b>, E. Choi, and H. Y. Hwang,",
+            "title": "Subcarrier Allocation and Relay Selection for Uplink Transmission in OFDMA-Based Cognitive Radio Systems,",
+            "journal": "<i>2013 International Conference on ICT Convergence (ICTC)</i>, Jeju, Korea, pp. 485-487, Oct. 14-16, 2013.",
+            "link": "https://doi.org/10.1109/ICTC.2013.6675402"
+        },
+        {
+            "author": "<b>W. H. Lee</b>, E. Choi, D.-H. Lee, and H. Y. Hwang,",
+            "title": "Performance Evaluation of a Downlink Bandwidth Allocation Scheme with Inter-Cell Interference in LTE-based Relay Systems,",
+            "journal": "<i>SWCC 2013 (Summer Workshop on Computer Communications 2013)</i>, Vol. S1-2, pp. 147-149, Yangpyeong, Korea, Aug. 22-23, 2013."
+        }
+    ],
 
-  "inter_pat": [
-    {
-      "author": "<b>Won Hyoung Lee</b> and Ji Yeun Kang,",
-      "title": "Memory system and operating method thereof,",
-      "date": "Patent No. US11675522B2, June 13, 2023.",
-      "link": "https://patents.google.com/patent/US11675522B2/en"
-    },
-    {
-      "author": "Soo Jin Park, Ji Yeun Kang, and <b>Won Hyoung Lee</b>,",
-      "title": "Controller for managing cache data, memory system including the same, and method performed by the same,",
-      "date": "Patent No. US11656793B2, May 23, 2023.",
-      "link": "https://patents.google.com/patent/US11656793B2/en"
-    },
-    {
-      "author": "Ji Yeun Kang and <b>Won Hyoung Lee</b>,",
-      "title": "Storage device and method of operating the same,",
-      "date": "Patent No. US11543975B2, Jan. 3, 2023.",
-      "link": "https://patents.google.com/patent/US11543975B2/en"
-    },
-    {
-      "author": "Soo Jin Park and <b>Won Hyoung Lee</b>,",
-      "title": "Controller and method of operating the same,",
-      "date": "Patent No. US11531586B2, Dec. 20, 2022.",
-      "link": "https://patents.google.com/patent/US11531586B2/en"
-    },
-    {
-      "author": "<b>Won Hyoung Lee</b> and Ji Yeun Kang,",
-      "title": "Memory system and method for operating memory system,",
-      "date": "Publication. No. JP 2022-176035, Nov. 25, 2022.",
-      "link": "https://patents.google.com/patent/JP2022176035A/en"
-    },
-    {
-      "author": "<b>Won Hyoung Lee</b> and Ji Yeun Kang,",
-      "title": "STORAGE SYSTEM AND OPERATING METHOD THEREOF,",
-      "date": "Publication. No. DE 102021210713A1, Nov. 17, 2022.",
-      "link": "https://patents.google.com/patent/DE102021210713A1/en"
-    },
-    {
-      "author": "Soo Jin Park and <b>Won Hyoung Lee</b>,",
-      "title": "Controller and method for operating the same,",
-      "date": "Publication. No. JP 2022-081409, May. 31, 2022.",
-      "link": "https://patents.google.com/patent/JP2022081409A/en"
-    }
-  ],
+    "inter_pat": [
+        {
+            "author": "<b>Won Hyoung Lee</b> and Ji Yeun Kang,",
+            "title": "Memory system and operating method thereof,",
+            "date": "Patent No. US11675522B2, June 13, 2023.",
+            "link": "https://patents.google.com/patent/US11675522B2/en"
+        },
+        {
+            "author": "Soo Jin Park, Ji Yeun Kang, and <b>Won Hyoung Lee</b>,",
+            "title": "Controller for managing cache data, memory system including the same, and method performed by the same,",
+            "date": "Patent No. US11656793B2, May 23, 2023.",
+            "link": "https://patents.google.com/patent/US11656793B2/en"
+        },
+        {
+            "author": "Ji Yeun Kang and <b>Won Hyoung Lee</b>,",
+            "title": "Storage device and method of operating the same,",
+            "date": "Patent No. US11543975B2, Jan. 3, 2023.",
+            "link": "https://patents.google.com/patent/US11543975B2/en"
+        },
+        {
+            "author": "Soo Jin Park and <b>Won Hyoung Lee</b>,",
+            "title": "Controller and method of operating the same,",
+            "date": "Patent No. US11531586B2, Dec. 20, 2022.",
+            "link": "https://patents.google.com/patent/US11531586B2/en"
+        },
+        {
+            "author": "<b>Won Hyoung Lee</b> and Ji Yeun Kang,",
+            "title": "Memory system and method for operating memory system,",
+            "date": "Publication. No. JP 2022-176035, Nov. 25, 2022.",
+            "link": "https://patents.google.com/patent/JP2022176035A/en"
+        },
+        {
+            "author": "<b>Won Hyoung Lee</b> and Ji Yeun Kang,",
+            "title": "STORAGE SYSTEM AND OPERATING METHOD THEREOF,",
+            "date": "Publication. No. DE 102021210713A1, Nov. 17, 2022.",
+            "link": "https://patents.google.com/patent/DE102021210713A1/en"
+        },
+        {
+            "author": "Soo Jin Park and <b>Won Hyoung Lee</b>,",
+            "title": "Controller and method for operating the same,",
+            "date": "Publication. No. JP 2022-081409, May. 31, 2022.",
+            "link": "https://patents.google.com/patent/JP2022081409A/en"
+        }
+    ],
 
-  "dome_pat": [
-    {
-      "author": "<b>W. H. Lee</b> and J. Y. Kang,",
-      "title": "Memory system and operating method thereof,",
-      "date": "Publication No. KR 10-2022-0153863, Nov 21, 2022.",
-      "link": "https://patents.google.com/patent/KR20220153863A/en"
-    },
-    {
-      "author": "S. J. Park, J. Y. Kang and <b>W. H. Lee</b>,",
-      "title": "Controller and memory system having the controller,",
-      "date": "Publication No. KR 10-2022-0138760, Oct. 13, 2022.",
-      "link": "https://patents.google.com/patent/KR20220138760A/en"
-    },
-    {
-      "author": "S. J. Park and <b>W. H. Lee</b>,",
-      "title": "Controller and operating method thereof,",
-      "date": "Publication No. KR 10-2022-0068831, May. 26, 2022.",
-      "link": "https://patents.google.com/patent/KR20220068831A/en"
-    },
-    {
-      "author": "J. Y. Kang and <b>W. H. Lee</b>,",
-      "title": "Storage device and operating method thereof,",
-      "date": "Publication No. KR 10-2022-0059272, May. 10, 2022.",
-      "link": "https://patents.google.com/patent/KR20220059272A/en"
-    },
-    {
-      "author": "H. Y. Hwang and <b>W. H. Lee</b>,",
-      "title": "Method and apparatus for estimating the number of devices in a slotted CSMA/CA network,",
-      "date": "Patent No. KR 10-2121501, June 4, 2020.",
-      "link": "https://patents.google.com/patent/KR102121501B1/en"
-    },
-    {
-      "author": "H. Y. Hwang and <b>W. H. Lee</b>,",
-      "title": "Method and apparatus for improving system throughput in slotted CSMA/CA network,",
-      "date": "Patent No. KR 10-2070301, Jan. 20, 2020.",
-      "link": "https://patents.google.com/patent/KR102070301B1/en"
-    },
-    {
-      "author": "H. Y. Hwang and <b>W. H. Lee</b>,",
-      "title": "Apparatus and method for transmitting aggregated frame,",
-      "date": "Patent No. KR 10-1974168, Apr. 24, 2019.",
-      "link": "https://patents.google.com/patent/KR101974168B1/en"
-    },
-    {
-      "author": "H. Y. Hwang, D.-H. Lee, <b>W. H. Lee</b>, and S.-M. Kang,",
-      "title": "Path selection method and apparatus in cognitive radio network,",
-      "date": "Patent No. KR 10-1824190, Jan. 25, 2018.",
-      "link": "https://patents.google.com/patent/KR101824190B1/en"
-    },
-    {
-      "author": "H. Y. Hwang, I. G. Jeong, and <b>W. H. Lee</b>,",
-      "title": "Method of improving service rate using minimum received power in cognitive relay network and apparatus thereof,",
-      "date": "Patent No. KR 10-1626952, May 27, 2016.",
-      "link": "https://patents.google.com/patent/KR101626952B1/en"
-    },
-    {
-      "author": "H. Y. Hwang, I. G. Jeong, and <b>W. H. Lee</b>,",
-      "title": "Method of improving service rate using maximum link rate in cognitive relay network and apparatus thereof,",
-      "date": "Patent No. KR 10-1626951, May 27, 2016.",
-      "link": "https://patents.google.com/patent/KR101626951B1/en"
-    }
-  ],
+    "dome_pat": [
+        {
+            "author": "<b>W. H. Lee</b> and J. Y. Kang,",
+            "title": "Memory system and operating method thereof,",
+            "date": "Publication No. KR 10-2022-0153863, Nov 21, 2022.",
+            "link": "https://patents.google.com/patent/KR20220153863A/en"
+        },
+        {
+            "author": "S. J. Park, J. Y. Kang and <b>W. H. Lee</b>,",
+            "title": "Controller and memory system having the controller,",
+            "date": "Publication No. KR 10-2022-0138760, Oct. 13, 2022.",
+            "link": "https://patents.google.com/patent/KR20220138760A/en"
+        },
+        {
+            "author": "S. J. Park and <b>W. H. Lee</b>,",
+            "title": "Controller and operating method thereof,",
+            "date": "Publication No. KR 10-2022-0068831, May. 26, 2022.",
+            "link": "https://patents.google.com/patent/KR20220068831A/en"
+        },
+        {
+            "author": "J. Y. Kang and <b>W. H. Lee</b>,",
+            "title": "Storage device and operating method thereof,",
+            "date": "Publication No. KR 10-2022-0059272, May. 10, 2022.",
+            "link": "https://patents.google.com/patent/KR20220059272A/en"
+        },
+        {
+            "author": "H. Y. Hwang and <b>W. H. Lee</b>,",
+            "title": "Method and apparatus for estimating the number of devices in a slotted CSMA/CA network,",
+            "date": "Patent No. KR 10-2121501, June 4, 2020.",
+            "link": "https://patents.google.com/patent/KR102121501B1/en"
+        },
+        {
+            "author": "H. Y. Hwang and <b>W. H. Lee</b>,",
+            "title": "Method and apparatus for improving system throughput in slotted CSMA/CA network,",
+            "date": "Patent No. KR 10-2070301, Jan. 20, 2020.",
+            "link": "https://patents.google.com/patent/KR102070301B1/en"
+        },
+        {
+            "author": "H. Y. Hwang and <b>W. H. Lee</b>,",
+            "title": "Apparatus and method for transmitting aggregated frame,",
+            "date": "Patent No. KR 10-1974168, Apr. 24, 2019.",
+            "link": "https://patents.google.com/patent/KR101974168B1/en"
+        },
+        {
+            "author": "H. Y. Hwang, D.-H. Lee, <b>W. H. Lee</b>, and S.-M. Kang,",
+            "title": "Path selection method and apparatus in cognitive radio network,",
+            "date": "Patent No. KR 10-1824190, Jan. 25, 2018.",
+            "link": "https://patents.google.com/patent/KR101824190B1/en"
+        },
+        {
+            "author": "H. Y. Hwang, I. G. Jeong, and <b>W. H. Lee</b>,",
+            "title": "Method of improving service rate using minimum received power in cognitive relay network and apparatus thereof,",
+            "date": "Patent No. KR 10-1626952, May 27, 2016.",
+            "link": "https://patents.google.com/patent/KR101626952B1/en"
+        },
+        {
+            "author": "H. Y. Hwang, I. G. Jeong, and <b>W. H. Lee</b>,",
+            "title": "Method of improving service rate using maximum link rate in cognitive relay network and apparatus thereof,",
+            "date": "Patent No. KR 10-1626951, May 27, 2016.",
+            "link": "https://patents.google.com/patent/KR101626951B1/en"
+        }
+    ],
 
-  "awards": [
-    "우수상, NAND개발사업총괄 신입사원 공통과정(NSSUP), SK하이닉스주식회사 NAND개발사업총괄, 2019년 2월 28일.",
-    "장려상, 컴퓨터공학과 졸업작품전시회, 광운대학교 컴퓨터공학과, 2016년 11월 18일.",
-    "장려상, 제 5회 소프트웨어프로그래밍 경진대회, 광운대학교 공학교육혁신센터, 2016년 9월 29일.",
-    "장학증서, 광운대학교 총동문회, 2015년 10월 6일.",
-    "표창장, 서울특별시교원단체총연합회, 2011년 2월 9일."
-  ]
+    "awards": [
+        "우수상, NAND개발사업총괄 신입사원 공통과정(NSSUP), SK하이닉스주식회사 NAND개발사업총괄, 2019년 2월 28일.",
+        "장려상, 컴퓨터공학과 졸업작품전시회, 광운대학교 컴퓨터공학과, 2016년 11월 18일.",
+        "장려상, 제 5회 소프트웨어프로그래밍 경진대회, 광운대학교 공학교육혁신센터, 2016년 9월 29일.",
+        "장학증서, 광운대학교 총동문회, 2015년 10월 6일.",
+        "표창장, 서울특별시교원단체총연합회, 2011년 2월 9일."
+    ]
 }
