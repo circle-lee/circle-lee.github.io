@@ -16,7 +16,7 @@
 
         {
             "title": "Professional Activity",
-            "company_name": "<a href='https://www.sw.or.kr/' target='_blank'>Korea Software Industry Association</a>",
+            "company_name": "<a href='https://www.sw.or.kr/' target='_blank'>Korea AI·Software Industry Association</a>",
             "period": "May 2025 - Present",
             "role": "Mentor, miraeplus",
             "state": "keep",
@@ -43,7 +43,7 @@
 
         {
             "title": "Professional Activity",
-            "company_name": "Korea Software Industry Association",
+            "company_name": "Korea AI·Software Industry Association",
             "period": "Dec. 2024",
             "role": "Judge and Mentor, KDT Integrated Project Presentation",
             "state": "end",
@@ -52,7 +52,7 @@
 
         {
             "title": "Professional Activity",
-            "company_name": "Korea Software Industry Association",
+            "company_name": "Korea AI·Software Industry Association",
             "period": "Nov. 2024",
             "role": "Judge, Software FUTURE&DREAM Challenge 2024",
             "state": "end",
@@ -84,7 +84,7 @@
 
         {
             "title": "Professional Activity",
-            "company_name": "Korea Software Industry Association",
+            "company_name": "Korea AI·Software Industry Association",
             "period": "Nov. 2023",
             "role": "Judge, Software FUTURE&DREAM Challenge 2023",
             "state": "end",
@@ -113,7 +113,7 @@
 
         {
             "title": "Junior Firmware Engineer (CL2)",
-            "company_name": "<a href='https://www.skhynix.com' target='_blank'>SK hynix</a>",
+            "company_name": "SK hynix",
             "period": "Jan. 2019 - Dec. 2020",
             "role": "SSD FTL Developer",
             "skillSets": [["C", "C++", "ARM Assembly"]],
