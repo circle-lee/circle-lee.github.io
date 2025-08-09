@@ -11,16 +11,25 @@
             ],
             "projects": ["LINE Desktop", "LINE Agent Desktop"],
             "state": "keep",
-            "loc": "l"
+            "loc": "r"
         },
 
         {
             "title": "Professional Engagement",
             "company_name": "<a href='https://www.sw.or.kr/' target='_blank'>Korea AI·Software Industry Association</a>",
+            "period": "June 2025 - Nov. 2025",
+            "role": "Organizing Committee Member and Judge, Software FUTURE&DREAM Challenge 2025",
+            "state": "keep",
+            "loc": "l"
+        },
+
+        {
+            "title": "Professional Engagement",
+            "company_name": "Korea AI·Software Industry Association",
             "period": "May 2025 - Present",
             "role": "Mentor, miraeplus",
             "state": "keep",
-            "loc": "r"
+            "loc": "l"
         },
 
         {
@@ -43,16 +52,16 @@
 
         {
             "title": "Professional Engagement",
-            "company_name": "Korea AI·Software Industry Association",
+            "company_name": "Korea Software Industry Association",
             "period": "Dec. 2024",
             "role": "Judge and Mentor, KDT Integrated Project Presentation",
             "state": "end",
-            "loc": "r"
+            "loc": "l"
         },
 
         {
             "title": "Professional Engagement",
-            "company_name": "Korea AI·Software Industry Association",
+            "company_name": "Korea Software Industry Association",
             "period": "Nov. 2024",
             "role": "Judge, Software FUTURE&DREAM Challenge 2024",
             "state": "end",
@@ -84,11 +93,11 @@
 
         {
             "title": "Professional Engagement",
-            "company_name": "Korea AI·Software Industry Association",
+            "company_name": "Korea Software Industry Association",
             "period": "Nov. 2023",
             "role": "Judge, Software FUTURE&DREAM Challenge 2023",
             "state": "end",
-            "loc": "r"
+            "loc": "l"
         },
 
         {
