@@ -17,9 +17,18 @@
         {
             "title": "Professional Activity",
             "company_name": "<a href='https://www.sw.or.kr/' target='_blank'>Korea AI·Software Industry Association</a>",
-            "period": "May 2025 - Present",
+            "period": "May 2025 - Dec. 2025",
             "role": "Mentor, miraeplus",
-            "state": "keep",
+            "state": "end",
+            "loc": "l"
+        },
+
+        {
+            "title": "Professional Activity",
+            "company_name": "Korea Software Industry Association",
+            "period": "Dec. 2025",
+            "role": "Judge and Mentor, K-DT Integrated Project Presentation",
+            "state": "end",
             "loc": "l"
         },
 
@@ -54,7 +63,7 @@
             "title": "Professional Activity",
             "company_name": "Korea Software Industry Association",
             "period": "Dec. 2024",
-            "role": "Judge and Mentor, KDT Integrated Project Presentation",
+            "role": "Judge and Mentor, K-DT Integrated Project Presentation",
             "state": "end",
             "loc": "l"
         },
