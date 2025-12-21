@@ -149,12 +149,8 @@
             "company_name": "Smart&Wise",
             "period": "July 2015 - Jan. 2016",
             "role": "Web (FE/BE) Developer",
-            "skillSets": [["PHP"], ["JavaScript", "NodeJS", "ExpressJS"], ["C#", "ASP.NET"]],
-            "projects": [
-                "Homepage of General Students' Association at Korea Univ.",
-                "Homepage of Counseling Program at Korea University",
-                "Homepage of Smart&Wise"
-            ],
+            "skillSets": [["PHP"], ["JavaScript", "NodeJS", "ExpressJS"], ["C#", "ASP.NET"], ["Java", "Spring"]],
+            "projects": ["Various web development project."],
             "state": "end",
             "loc": "r"
         },
