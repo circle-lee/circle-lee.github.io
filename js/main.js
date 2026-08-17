@@ -1,8 +1,19 @@
 var $g_jsonData = null;
 
 function loadData() {
+    // Standard jQuery getJSON
     $.getJSON("./assets/data.json", function (data) {
         $g_jsonData = data;
+    }).fail(function () {
+        // Fallback for environments with standard fetch
+        fetch("./assets/data.json")
+            .then(function (res) { return res.json(); })
+            .then(function (data) {
+                $g_jsonData = data;
+            })
+            .catch(function (err) {
+                console.error("Failed to load data.json:", err);
+            });
     });
 }
 
@@ -13,57 +24,60 @@ function addProEx(idx, jsonData) {
     var role = jsonData.role;
     var skillSets = jsonData.skillSets;
     var projects = jsonData.projects;
-    var state = jsonData.state;
-    var loc = jsonData.loc;
+    var state = jsonData.state; // 'keep' or 'end'
 
-    var $div_content = $("<div class='content " + state + "'></div>");
-    $div_content.append("<p>" + title + ", " + period + "</p>");
-    $div_content.append('<p class="white-space"><i class="fas fa-building"></i> ' + company_name + "</p>");
+    var isCurrent = state === "keep" || (period && period.toLowerCase().includes("present"));
+    var statusBadge = isCurrent 
+        ? '<span class="badge badge-active"><span class="badge-dot"></span>Present</span>' 
+        : '<span class="badge badge-past">Completed</span>';
 
-    if (!!role) {
-        $div_content.append('<p class="white-space"><i class="fas fa-keyboard"></i> ' + role + "</p>");
+    var $item = $('<div class="timeline-item"></div>');
+    var $marker = $('<div class="timeline-marker ' + (isCurrent ? "marker-active" : "") + '"><div class="marker-dot"></div></div>');
+    var $card = $('<div class="card timeline-card ' + (isCurrent ? "card-highlight" : "") + '"></div>');
+
+    var headerHtml = `
+        <div class="card-header">
+            <div class="card-title-group">
+                <h3 class="card-title">${title}</h3>
+                <div class="card-company"><i class="fas fa-building"></i> ${company_name}</div>
+            </div>
+            <div class="card-meta-group">
+                <span class="period-text"><i class="far fa-calendar-alt"></i> ${period}</span>
+                ${statusBadge}
+            </div>
+        </div>
+    `;
+    $card.append(headerHtml);
+
+    var $cardBody = $('<div class="card-body"></div>');
+
+    if (role) {
+        $cardBody.append(`<div class="item-role"><i class="fas fa-keyboard"></i> <span>${role}</span></div>`);
     }
 
-    if (!!skillSets) {
-        $div_content.append('<p class="white-space"><i class="fas fa-code"></i> Skills</p>');
-        $.each(skillSets, function (idx, skillSet) {
-            var skills = skillSet.join(", ");
-            $div_content.append('<p class="deeper-white-space"><i class="fas fa-caret-right"></i> ' + skills + "</p>");
+    if (skillSets && skillSets.length > 0) {
+        var $skillsSection = $('<div class="item-section"><div class="item-section-title"><i class="fas fa-code"></i> Skills</div><div class="tag-group"></div></div>');
+        var $tagGroup = $skillsSection.find(".tag-group");
+        $.each(skillSets, function (i, set) {
+            $.each(set, function (j, skill) {
+                $tagGroup.append(`<span class="tag tag-skill">${skill}</span>`);
+            });
         });
+        $cardBody.append($skillsSection);
     }
 
-    if (!!projects) {
-        $div_content.append('<p class="white-space"><i class="fas fa-clipboard-list"></i> Projects</p>');
-        $.each(projects, function (idx, project) {
-            $div_content.append('<p class="deeper-white-space"><i class="fas fa-caret-right"></i> ' + project + "</p>");
+    if (projects && projects.length > 0) {
+        var $projSection = $('<div class="item-section"><div class="item-section-title"><i class="fas fa-cubes"></i> Projects / Key Activities</div><ul class="bullet-list"></ul></div>');
+        var $bulletList = $projSection.find(".bullet-list");
+        $.each(projects, function (i, proj) {
+            $bulletList.append(`<li>${proj}</li>`);
         });
+        $cardBody.append($projSection);
     }
 
-    var $div_line_l = $("<div class='line-l'></div>");
-    var $div_line_r = $("<div class='line-r'></div>");
-
-    var $div_line_loc = null;
-    if (loc == "l") {
-        $div_line_loc = $div_line_l;
-
-        $div_line_l.append($div_content);
-        $div_line_l.append('<div class="link-line"></div>');
-        $div_line_r.addClass("line-e");
-    } else {
-        $div_line_loc = $div_line_r;
-
-        $div_line_r.append('<div class="link-line"></div>');
-        $div_line_r.append($div_content);
-        $div_line_l.addClass("line-e");
-    }
-
-    $div_line_loc.append();
-
-    var $div_line = $("<div class='line'></div>");
-    $div_line.append($div_line_l);
-    $div_line.append($div_line_r);
-
-    $("#pro-ex").append($div_line);
+    $card.append($cardBody);
+    $item.append($marker).append($card);
+    $("#pro-ex-timeline").append($item);
 }
 
 function addAcademicEx(idx, jsonData) {
@@ -73,52 +87,45 @@ function addAcademicEx(idx, jsonData) {
     var place = jsonData.place;
     var instructor = jsonData.instructor;
     var details = jsonData.details;
-    var loc = jsonData.loc;
 
-    var $div_content = $("<div class='content'></div>");
-    $div_content.append("<p>" + title + ", " + period + "</p>");
+    var $item = $('<div class="timeline-item"></div>');
+    var $marker = $('<div class="timeline-marker"><div class="marker-dot"></div></div>');
+    var $card = $('<div class="card timeline-card"></div>');
 
-    if (!!name) {
-        $div_content.append("<p class='white-space'><i class='fas fa-university'></i> " + name + "</p>");
+    var headerHtml = `
+        <div class="card-header">
+            <div class="card-title-group">
+                <h3 class="card-title">${title}</h3>
+                ${name ? `<div class="card-company"><i class="fas fa-graduation-cap"></i> ${name}</div>` : ''}
+            </div>
+            <div class="card-meta-group">
+                <span class="period-text"><i class="far fa-calendar-alt"></i> ${period}</span>
+            </div>
+        </div>
+    `;
+    $card.append(headerHtml);
+
+    var $cardBody = $('<div class="card-body"></div>');
+
+    if (place) {
+        $cardBody.append(`<div class="item-meta-detail"><i class="fas fa-map-marker-alt"></i> <span>${place}</span></div>`);
     }
 
-    if (!!place) {
-        $div_content.append("<p class='white-space'><i class='fas fa-map-marker'></i> " + place + "</p>");
+    if (instructor) {
+        $cardBody.append(`<div class="item-meta-detail"><i class="fas fa-user-tie"></i> <span>${instructor}</span></div>`);
     }
 
-    if (!!instructor) {
-        $div_content.append("<p class='white-space'><i class='fas fa-book'></i> " + instructor + "</p>");
+    if (details && details.length > 0) {
+        var $ul = $('<ul class="bullet-list mt-2"></ul>');
+        $.each(details, function (i, detail) {
+            $ul.append(`<li>${detail}</li>`);
+        });
+        $cardBody.append($ul);
     }
 
-    $.each(details, function (idx, detail) {
-        $div_content.append('<p class="deeper-white-space"><i>- ' + detail + "</i></p>");
-    });
-
-    var $div_line_l = $("<div class='line-l'></div>");
-    var $div_line_r = $("<div class='line-r'></div>");
-
-    var $div_line_loc = null;
-    if (loc == "l") {
-        $div_line_loc = $div_line_l;
-
-        $div_line_l.append($div_content);
-        $div_line_l.append('<div class="link-line"></div>');
-        $div_line_r.addClass("line-e");
-    } else {
-        $div_line_loc = $div_line_r;
-
-        $div_line_r.append('<div class="link-line"></div>');
-        $div_line_r.append($div_content);
-        $div_line_l.addClass("line-e");
-    }
-
-    $div_line_loc.append();
-
-    var $div_line = $("<div class='line'></div>");
-    $div_line.append($div_line_l);
-    $div_line.append($div_line_r);
-
-    $("#academic-ex").append($div_line);
+    $card.append($cardBody);
+    $item.append($marker).append($card);
+    $("#academic-ex-timeline").append($item);
 }
 
 function addEdu(idx, jsonData) {
@@ -126,119 +133,144 @@ function addEdu(idx, jsonData) {
     var school = jsonData.school;
     var period = jsonData.period;
     var lab = jsonData.lab;
-    var loc = jsonData.loc;
     var detail = jsonData.detail;
 
-    var $div_content = $("<div class='content'></div>");
-    $div_content.append("<p>" + degree_name + ", " + period + "</p>");
-    $div_content.append('<p class="white-space"><i class="fas fa-university"></i> ' + school + "</p>");
-    if (!!lab) {
-        $div_content.append('<p class="white-space"><i class="fas fa-desktop"></i> ' + lab + "</p>");
-    }
-    if (!!detail) {
-        $div_content.append('<p class="edu-detail">' + detail + "</p>");
-    }
+    var $item = $('<div class="timeline-item"></div>');
+    var $marker = $('<div class="timeline-marker"><div class="marker-dot"></div></div>');
+    var $card = $('<div class="card timeline-card"></div>');
 
-    var $div_line_l = $("<div class='line-l'></div>");
-    var $div_line_r = $("<div class='line-r'></div>");
+    var headerHtml = `
+        <div class="card-header">
+            <div class="card-title-group">
+                <h3 class="card-title">${degree_name}</h3>
+                <div class="card-company"><i class="fas fa-university"></i> ${school}</div>
+            </div>
+            <div class="card-meta-group">
+                <span class="period-text"><i class="far fa-calendar-alt"></i> ${period}</span>
+            </div>
+        </div>
+    `;
+    $card.append(headerHtml);
 
-    var $div_line_loc = null;
-    if (loc == "l") {
-        $div_line_loc = $div_line_l;
+    var $cardBody = $('<div class="card-body"></div>');
 
-        $div_line_l.append($div_content);
-        $div_line_l.append('<div class="link-line"></div>');
-        $div_line_r.addClass("line-e");
-    } else {
-        $div_line_loc = $div_line_r;
-
-        $div_line_r.append('<div class="link-line"></div>');
-        $div_line_r.append($div_content);
-        $div_line_l.addClass("line-e");
+    if (lab) {
+        $cardBody.append(`<div class="item-meta-detail"><i class="fas fa-microchip"></i> <span>${lab}</span></div>`);
     }
 
-    $div_line_loc.append();
+    if (detail) {
+        $cardBody.append(`<div class="highlight-box"><i class="fas fa-star text-accent"></i> <span>${detail}</span></div>`);
+    }
 
-    var $div_line = $('<div class="line"></div>');
-    $div_line.append($div_line_l);
-    $div_line.append($div_line_r);
-
-    $("#edu").append($div_line);
+    $card.append($cardBody);
+    $item.append($marker).append($card);
+    $("#edu-timeline").append($item);
 }
 
 function addOpenSrc(idx, jsonData) {
     var img_name = jsonData.img_name;
-
-    var $div_logo = $('<div class="open-src-logo"><img src="./assets/' + img_name + '"></div>');
+    var nameClean = img_name.replace(/\.[^/.]+$/, "");
+    var $div_logo = $(`
+        <div class="logo-card">
+            <div class="logo-img-wrap">
+                <img src="./assets/${img_name}" alt="${nameClean}" loading="lazy" />
+            </div>
+            <span class="logo-name">${nameClean}</span>
+        </div>
+    `);
     $("#open-src-content").append($div_logo);
 }
 
 function addTechStack(idx, jsonData) {
     var img_name = jsonData.img_name;
-
-    var $div_logo = $('<div class="tech-stack-logo"><img src="./assets/' + img_name + '"></div>');
+    var displayName = jsonData.name || img_name.replace(/\.[^/.]+$/, "");
+    var $div_logo = $(`
+        <div class="logo-card">
+            <div class="logo-img-wrap">
+                <img src="./assets/${img_name}" alt="${displayName}" loading="lazy" />
+            </div>
+            <span class="logo-name">${displayName}</span>
+        </div>
+    `);
     $("#tech-stack-content").append($div_logo);
 }
 
-function addPaper(id, jsonData) {
+function addPaper(targetId, jsonData) {
     var author = jsonData.author;
     var title = jsonData.title;
     var journal = jsonData.journal;
     var link = jsonData.link;
 
-    var $div_paper = $('<div class="paper"></div>');
-    $div_paper.append($("<p>" + author + "</p>"));
-    if (link !== undefined && link !== "") {
-        $div_paper.append($('<p class="title"><a target="_blank" href="' + link + '">"' + title + '"</a></p>'));
-    } else {
-        $div_paper.append($('<p class="title">"' + title + '"</p>'));
-    }
-    $div_paper.append($('<p class="journal">' + journal + "</p>"));
+    var titleContent = (link !== undefined && link !== "")
+        ? `<a target="_blank" rel="noopener noreferrer" href="${link}" class="paper-title-link">"${title}" <i class="fas fa-external-link-alt"></i></a>`
+        : `"${title}"`;
 
-    $(id).append($div_paper);
+    var $card = $(`
+        <div class="card pub-card">
+            <div class="pub-header">
+                <h4 class="pub-title">${titleContent}</h4>
+            </div>
+            <div class="pub-authors"><i class="fas fa-user-edit"></i> ${author}</div>
+            <div class="pub-venue"><i class="fas fa-bookmark"></i> ${journal}</div>
+        </div>
+    `);
+
+    $(targetId).append($card);
 }
+
 function addInternationalJournal(idx, jsonData) {
-    addPaper("#inter_jnl", jsonData);
+    addPaper("#inter_jnl-list", jsonData);
 }
 function addDomesticJournal(idx, jsonData) {
-    addPaper("#dome_jnl", jsonData);
+    addPaper("#dome_jnl-list", jsonData);
 }
 function addConference(idx, jsonData) {
-    addPaper("#conf", jsonData);
+    addPaper("#conf-list", jsonData);
 }
 
-function addPatent(id, jsonData) {
+function addPatent(targetId, jsonData) {
     var author = jsonData.author;
     var title = jsonData.title;
     var date = jsonData.date;
     var link = jsonData.link;
 
-    var $div_patent = $('<div class="patent"></div>');
-    $div_patent.append($("<p>" + author + "</p>"));
-    if (link !== undefined && link !== "") {
-        $div_patent.append($('<p class="title"><a target="_blank" href="' + link + '">"' + title + '"</a></p>'));
-    } else {
-        $div_patent.append($('<p class="title">"' + title + '"</p>'));
-    }
-    $div_patent.append($("<p>" + date + "</p>"));
+    var titleContent = (link !== undefined && link !== "")
+        ? `<a target="_blank" rel="noopener noreferrer" href="${link}" class="paper-title-link">"${title}" <i class="fas fa-external-link-alt"></i></a>`
+        : `"${title}"`;
 
-    $(id).append($div_patent);
+    var $card = $(`
+        <div class="card pub-card">
+            <div class="pub-header">
+                <h4 class="pub-title">${titleContent}</h4>
+            </div>
+            <div class="pub-authors"><i class="fas fa-users"></i> ${author}</div>
+            <div class="pub-venue"><i class="fas fa-stamp"></i> ${date}</div>
+        </div>
+    `);
+
+    $(targetId).append($card);
 }
+
 function addInternationalPatent(idx, jsonData) {
-    addPatent("#inter_pat", jsonData);
+    addPatent("#inter_pat-list", jsonData);
 }
 function addDomesticPatent(idx, jsonData) {
-    addPatent("#dome_pat", jsonData);
+    addPatent("#dome_pat-list", jsonData);
 }
 
-function addAwards(id, jsonData) {
-    var text = jsonData;
-    $("#awards").append($('<div class="award"><p>' + text + "</p></div>"));
+function addAwards(idx, text) {
+    var $card = $(`
+        <div class="card award-card">
+            <div class="award-icon-box"><i class="fas fa-medal"></i></div>
+            <div class="award-content">${text}</div>
+        </div>
+    `);
+    $("#awards-list").append($card);
 }
 
 function renderData() {
     if ($g_jsonData == null) {
-        setTimeout(renderData, 500);
+        setTimeout(renderData, 200);
         return;
     }
 

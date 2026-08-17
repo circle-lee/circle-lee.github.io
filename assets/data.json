@@ -281,40 +281,60 @@
 
     "tech_stack": [
         {
-            "img_name": "C.png"
+            "img_name": "C.png",
+            "name": "C"
         },
         {
-            "img_name": "cpp.png"
+            "img_name": "cpp.png",
+            "name": "C++"
         },
         {
-            "img_name": "Csharp.png"
+            "img_name": "typescript.svg",
+            "name": "TypeScript"
         },
         {
-            "img_name": "python.png"
+            "img_name": "react.svg",
+            "name": "React"
         },
         {
-            "img_name": "php.png"
+            "img_name": "electron.svg",
+            "name": "Electron"
         },
         {
-            "img_name": "matlab.png"
+            "img_name": "javascript.png",
+            "name": "JavaScript"
         },
         {
-            "img_name": "html5.png"
+            "img_name": "Csharp.png",
+            "name": "C#"
         },
         {
-            "img_name": "javascript.png"
+            "img_name": "python.png",
+            "name": "Python"
         },
         {
-            "img_name": "xna.png"
+            "img_name": "WPF.png",
+            "name": "WPF"
         },
         {
-            "img_name": "WPF.png"
+            "img_name": "php.png",
+            "name": "PHP"
         },
         {
-            "img_name": "NS-3.png"
+            "img_name": "matlab.png",
+            "name": "MATLAB"
         },
         {
-            "img_name": "GNUboard5.png"
+            "img_name": "NS-3.png",
+            "name": "NS-3"
+        },
+        {
+            "img_name": "GNUboard5.png",
+            "name": "GNUboard5"
+        },
+        {
+            "img_name": "xna.png",
+            "name": "XNA"
         }
     ],
     "inter_jnl": [
