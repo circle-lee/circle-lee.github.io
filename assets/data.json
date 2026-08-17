@@ -11,14 +11,50 @@
             ],
             "projects": ["LINE Desktop", "LINE Agent Desktop"],
             "state": "keep",
-            "loc": "r"
+            "loc": "l"
         },
 
         {
             "title": "Professional Activity",
             "company_name": "<a href='https://www.sw.or.kr/' target='_blank'>Korea AI·Software Industry Association</a>",
+            "period": "Apr. 2026 - Nov. 2026",
+            "role": "Mentor, Miraeplus",
+            "state": "keep",
+            "loc": "r"
+        },
+
+        {
+            "title": "Professional Activity",
+            "company_name": "Korea AI·Software Industry Association",
+            "period": "Apr. 2026",
+            "role": "Speaker, Outreach AI·SW Competency Empowerment Camp",
+            "state": "end",
+            "loc": "l"
+        },
+
+        {
+            "title": "Professional Activity",
+            "company_name": "Korea AI·Software Industry Association",
+            "period": "Apr. 2026",
+            "role": "Mentor, IT Competency Empowerment One Pick Meeting (2 Sessions)",
+            "state": "end",
+            "loc": "l"
+        },
+
+        {
+            "title": "Professional Activity",
+            "company_name": "Korea AI·Software Industry Association",
+            "period": "Dec. 2025",
+            "role": "Speaker, Miraeplus KONNECT",
+            "state": "end",
+            "loc": "r"
+        },
+
+        {
+            "title": "Professional Activity",
+            "company_name": "Korea AI·Software Industry Association",
             "period": "May 2025 - Dec. 2025",
-            "role": "Mentor, miraeplus",
+            "role": "Mentor, Miraeplus",
             "state": "end",
             "loc": "l"
         },
@@ -29,7 +65,7 @@
             "period": "Dec. 2025",
             "role": "Judge and Mentor, K-DT Integrated Project Presentation",
             "state": "end",
-            "loc": "l"
+            "loc": "r"
         },
 
         {
@@ -38,7 +74,7 @@
             "period": "June 2025 - Nov. 2025",
             "role": "Organizing Committee Member and Judge, Software FUTURE&DREAM Challenge 2025",
             "state": "end",
-            "loc": "l"
+            "loc": "r"
         },
 
         {
@@ -47,7 +83,7 @@
             "period": "Dec. 2024",
             "role": "Judge, Practical Training Presentation in Myongji University",
             "state": "end",
-            "loc": "r"
+            "loc": "l"
         },
 
         {
@@ -56,7 +92,7 @@
             "period": "Dec. 2024",
             "role": "Judge, Capstone Presentation in Myongji University",
             "state": "end",
-            "loc": "r"
+            "loc": "l"
         },
 
         {
@@ -65,7 +101,7 @@
             "period": "Dec. 2024",
             "role": "Judge and Mentor, K-DT Integrated Project Presentation",
             "state": "end",
-            "loc": "l"
+            "loc": "r"
         },
 
         {
